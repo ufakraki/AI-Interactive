@@ -1,8 +1,11 @@
+// frontend/src/App.js
+import AdminPanel from './components/AdminPanel';
+
 function App() {
-    return (
-      <div>
-        <h1>Opion CRM Yükleniyor...</h1>
-      </div>
-    );
-  }
-  export default App;
+  return (
+    <div className="App">
+      <h1>Opion CRM Çalışıyor! 🚀</h1>
+      <AdminPanel />
+    </div>
+  );
+}
