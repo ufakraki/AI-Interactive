@@ -1,0 +1,6 @@
+services:
+  opioncrm:
+    image: opioncrm
+    build:
+      context: .
+      dockerfile: ./Dockerfile

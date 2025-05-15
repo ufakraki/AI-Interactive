@@ -1,15 +1,15 @@
+# core/urls.py
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from companies.views import CompanyViewSet
+from .views import UserViewSet
+
+router = DefaultRouter()
+router.register(r'companies', CompanyViewSet, basename='company')
+router.register(r'users', UserViewSet, basename='user')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-]
-from django.contrib import admin
-from django.urls import path
-from .views import CompanyView, UserView
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/companies/', CompanyView.as_view()),
-    path('api/users/', UserView.as_view()),
+    path('api/', include(router.urls)),
 ]

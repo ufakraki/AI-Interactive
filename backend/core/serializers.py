@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from .models import Company, User
+from companies.models import Company  # Doğru import: companies uygulamasından Company modelini al
+from .models import User
 
 class CompanySerializer(serializers.ModelSerializer):
     class Meta:

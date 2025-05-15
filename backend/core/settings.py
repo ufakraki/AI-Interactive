@@ -17,8 +17,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'companies.apps.CompaniesConfig',
     'core',
+    'companies.apps.CompaniesConfig',
 ]
 
 MIDDLEWARE = [
@@ -52,14 +52,13 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'core.wsgi.application'
 
-# ✅ DATABASES KISMI (DÜZELTİLMİŞ HALİ)
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.environ.get('POSTGRES_DB'),
         'USER': os.environ.get('POSTGRES_USER'),
         'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
-        'HOST': 'postgres',
+        'HOST': os.environ.get('POSTGRES_HOST', 'postgres'),
         'PORT': '5432',
         'OPTIONS': {
             'options': '-c search_path=public'
@@ -106,3 +105,5 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticatedOrReadOnly',
     ]
 }
+
+AUTH_USER_MODEL = 'core.User'
