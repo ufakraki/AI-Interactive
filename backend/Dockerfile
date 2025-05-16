@@ -1,5 +1,5 @@
 # Temel imaj olarak Python 3.11'in resmi slim sürümünü kullan
-FROM python:3.11-slim-bookworm
+FROM python:3.11-slim-bullseye
 
 # Netcat ve gerekli sistem araçlarını kur
 RUN apt-get update && \

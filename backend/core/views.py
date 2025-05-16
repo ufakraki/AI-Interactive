@@ -1,12 +1,17 @@
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from rest_framework import viewsets
-from companies.models import Company  # Doğru import: companies uygulamasından Company modelini al
+from rest_framework import viewsets, status
+from rest_framework.decorators import action
+from rest_framework_simplejwt.views import TokenObtainPairView
+from companies.models import Company
 from .models import User
-from companies.serializers import CompanySerializer  # Doğru import: companies uygulamasından CompanySerializer'ı al
-from .serializers import UserSerializer
+from companies.serializers import CompanySerializer
+from .serializers import UserSerializer, PasswordChangeSerializer, CustomTokenObtainPairSerializer
 from .permissions import IsCompanyUserOrAdmin
 from rest_framework.permissions import IsAuthenticated
+
+class CustomTokenObtainPairView(TokenObtainPairView):
+    serializer_class = CustomTokenObtainPairSerializer
 
 class CompanyView(APIView):
     permission_classes = [IsAuthenticated, IsCompanyUserOrAdmin]
@@ -40,3 +45,14 @@ class UserViewSet(viewsets.ModelViewSet):
         if getattr(user, 'role', None) == 'superadmin':
             return User.objects.all()
         return User.objects.filter(company=getattr(user, 'company', None))
+
+    @action(detail=True, methods=['post'])
+    def set_password(self, request, pk=None):
+        user = self.get_object()
+        serializer = PasswordChangeSerializer(data=request.data)
+        if serializer.is_valid():
+            user.set_password(serializer.validated_data['new_password'])
+            user.save()
+            return Response({'status': 'password set'})
+        else:
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

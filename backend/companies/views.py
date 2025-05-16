@@ -12,6 +12,14 @@ class CompanyViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         user = self.request.user
-        if getattr(user, 'role', None) == 'superadmin':
+        user_role = getattr(user, 'role', None)
+        
+        # Superadmin can see all companies
+        if user_role == 'superadmin':
             return Company.objects.all()
-        return Company.objects.filter(id=getattr(user, 'company_id', None))
+            
+        # Company admin and regular users can only see their own company
+        if user.company:
+            return Company.objects.filter(id=user.company.id)
+            
+        return Company.objects.none()

@@ -5,6 +5,9 @@ import api from '../api/axios';
 const UserList = ({ companyId, canEdit }) => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [selectedUser, setSelectedUser] = useState(null);
+  const [passwordForm, setPasswordForm] = useState({ new_password: '', confirm_password: '' });
+  const [passwordError, setPasswordError] = useState('');
 
   useEffect(() => {
     const fetchUsers = async () => {
@@ -26,16 +29,88 @@ const UserList = ({ companyId, canEdit }) => {
     setUsers(users.filter(u => u.id !== id));
   };
 
+  const handlePasswordChange = async (userId) => {
+    try {
+      setPasswordError('');
+      if (passwordForm.new_password !== passwordForm.confirm_password) {
+        setPasswordError('Şifreler eşleşmiyor');
+        return;
+      }
+      await api.post(`/users/${userId}/set_password/`, passwordForm);
+      setSelectedUser(null);
+      setPasswordForm({ new_password: '', confirm_password: '' });
+      alert('Şifre başarıyla değiştirildi');
+    } catch (error) {
+      setPasswordError(error.response?.data?.message || 'Şifre değiştirme başarısız');
+    }
+  };
+
   if (loading) return <div>Kullanıcılar yükleniyor...</div>;
   return (
     <div>
       <h5>Kullanıcılar</h5>
       <ul className="list-group">
         {users.map(user => (
-          <li key={user.id} className="list-group-item d-flex justify-content-between align-items-center">
-            {user.first_name} {user.last_name} ({user.role})
-            {canEdit && user.role === 'user' && (
-              <button className="btn btn-danger btn-sm" onClick={() => handleDelete(user.id)}>Sil</button>
+          <li key={user.id} className="list-group-item">
+            <div className="d-flex justify-content-between align-items-center">
+              {user.first_name} {user.last_name} ({user.role})
+              <div>
+                {canEdit && (
+                  <>
+                    <button 
+                      className="btn btn-primary btn-sm me-2" 
+                      onClick={() => setSelectedUser(user.id)}
+                    >
+                      Şifre Değiştir
+                    </button>
+                    {user.role === 'user' && (
+                      <button 
+                        className="btn btn-danger btn-sm" 
+                        onClick={() => handleDelete(user.id)}
+                      >
+                        Sil
+                      </button>
+                    )}
+                  </>
+                )}
+              </div>
+            </div>
+            {selectedUser === user.id && (
+              <div className="mt-2">
+                <div className="mb-2">
+                  <input
+                    type="password"
+                    className="form-control mb-2"
+                    placeholder="Yeni Şifre"
+                    value={passwordForm.new_password}
+                    onChange={(e) => setPasswordForm({...passwordForm, new_password: e.target.value})}
+                  />
+                  <input
+                    type="password"
+                    className="form-control mb-2"
+                    placeholder="Şifreyi Tekrar Girin"
+                    value={passwordForm.confirm_password}
+                    onChange={(e) => setPasswordForm({...passwordForm, confirm_password: e.target.value})}
+                  />
+                </div>
+                {passwordError && <div className="text-danger mb-2">{passwordError}</div>}
+                <button 
+                  className="btn btn-success btn-sm me-2"
+                  onClick={() => handlePasswordChange(user.id)}
+                >
+                  Şifreyi Kaydet
+                </button>
+                <button 
+                  className="btn btn-secondary btn-sm"
+                  onClick={() => {
+                    setSelectedUser(null);
+                    setPasswordForm({ new_password: '', confirm_password: '' });
+                    setPasswordError('');
+                  }}
+                >
+                  İptal
+                </button>
+              </div>
             )}
           </li>
         ))}
