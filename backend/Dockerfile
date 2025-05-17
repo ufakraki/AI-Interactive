@@ -1,19 +1,27 @@
-# Temel imaj olarak Python 3.11'in resmi slim sürümünü kullan
-FROM python:3.11-slim-bullseye
+# Use Python Alpine image as base
+FROM python:alpine
 
-# Netcat ve gerekli sistem araçlarını kur
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-    netcat-traditional \
+# Sistem paketlerini güncelle ve gereksiz paketleri kaldır
+RUN apk update && \
+    apk add --no-cache \
+    netcat-openbsd \
     gcc \
-    libpq-dev && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    musl-dev \
+    postgresql-dev \
+    python3-dev
+
+# Güvenlik açıklarını azaltmak için pip ve setuptools'u güncelle
+RUN pip install --no-cache-dir --upgrade pip setuptools
+
+# (Devamı aynı)
 
 # Python ortam ayarları
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV DJANGO_SETTINGS_MODULE=core.settings
+
+# Setuptools'u güvenli sürüme yükselt
+RUN pip install --no-cache-dir setuptools>=70.0.0
 
 # Çalışma dizinini ayarla
 WORKDIR /app
