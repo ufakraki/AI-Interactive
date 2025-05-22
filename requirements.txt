@@ -1,0 +1,9 @@
+# Ay evresi için ephem kütüphanesi ekleniyor
+ephem
+# Gerekli Python kütüphaneleri
+flask
+gunicorn
+redis
+requests
+schedule
+python-dotenv

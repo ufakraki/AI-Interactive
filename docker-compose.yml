@@ -1,0 +1,34 @@
+# Docker Compose ile Flask API ve Redis
+version: '3.8'
+services:
+  api:
+    build: .
+    container_name: balikavi_api
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - OPENWEATHER_KEY=${OPENWEATHER_KEY}
+    depends_on:
+      - redis
+  scheduler:
+    build: .
+    container_name: balikavi_scheduler
+    command: python scheduler.py
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - OPENWEATHER_KEY=${OPENWEATHER_KEY}
+    depends_on:
+      - redis
+  redis:
+    image: redis:7-alpine
+    container_name: balikavi_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+volumes:
+  redis_data:
