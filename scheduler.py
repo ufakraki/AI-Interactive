@@ -34,14 +34,17 @@ def send_error_email(subject, message):
 print("[DEBUG] scheduler.py başladı")
 from balik_tahmin import score_fishing_conditions
 
-# Redis bağlantısı (Docker'da servis adı redis olmalı)
-r = Redis(host="redis", port=6379)
+# Redis bağlantısı (Docker ortamı için host ve port ortam değişkenlerinden alınır)
+import os
+redis_host = os.environ.get("REDIS_HOST", "localhost")
+redis_port = int(os.environ.get("REDIS_PORT", 6379))
+r = Redis(host=redis_host, port=redis_port)
 
-# Şehirler ve koordinatları
+# Sadece frontend'de seçilebilen ilçeler ve koordinatları
 CITIES = {
-    "canakkale": {"lat": 40.1, "lon": 26.4, "name": "canakkale"},
+    "ayvalik": {"lat": 39.3, "lon": 26.7, "name": "ayvalik"},
     "edremit": {"lat": 39.6, "lon": 26.9, "name": "edremit"},
-    "ayvalik": {"lat": 39.3, "lon": 26.7, "name": "ayvalik"}
+    "merkez": {"lat": 40.1553, "lon": 26.4142, "name": "merkez"},
 }
 
 def update_data():
@@ -53,11 +56,11 @@ def update_data():
             print(f"[DEBUG] get_weather_data sonrası: {w}")
             if not w:
                 print(f"[ERROR] {city} için hava verisi alınamadı, atlanıyor.")
-                # Hata durumunda e-posta gönder
-                send_error_email(
-                    subject=f"balikavi.com Hata: {city} için hava verisi alınamadı",
-                    message=f"{city} için hava verisi alınamadı. Saat: {time.ctime()}"
-                )
+                # Hata durumunda e-posta gönderme (geliştirme için pasif)
+                # send_error_email(
+                #     subject=f"balikavi.com Hata: {city} için hava verisi alınamadı",
+                #     message=f"{city} için hava verisi alınamadı. Saat: {time.ctime()}"
+                # )
                 # Redis'e hata kaydı
                 r.set(f"data_{city}", json.dumps({"error": True, "message": "Hava verisi alınamadı"}))
                 continue
@@ -67,10 +70,10 @@ def update_data():
             print(f"[DEBUG] get_moon_phase sonrası: {m}")
             if not m:
                 print(f"[ERROR] {city} için ay evresi alınamadı, atlanıyor.")
-                send_error_email(
-                    subject=f"balikavi.com Hata: {city} için ay evresi alınamadı",
-                    message=f"{city} için ay evresi alınamadı. Saat: {time.ctime()}"
-                )
+                # send_error_email(
+                #     subject=f"balikavi.com Hata: {city} için ay evresi alınamadı",
+                #     message=f"{city} için ay evresi alınamadı. Saat: {time.ctime()}"
+                # )
                 r.set(f"data_{city}", json.dumps({"error": True, "message": "Ay evresi alınamadı"}))
                 continue
             print(f"[INFO] Ay evresi: {m}")
@@ -94,10 +97,10 @@ def update_data():
             print(f"[INFO] {city} için veri kaydedildi.")
         except Exception as e:
             print(f"[ERROR] {city} için veri güncellenemedi: {e}")
-            send_error_email(
-                subject=f"balikavi.com Hata: {city} için genel hata",
-                message=f"{city} için veri güncellenemedi: {e}\nSaat: {time.ctime()}"
-            )
+            # send_error_email(
+            #     subject=f"balikavi.com Hata: {city} için genel hata",
+            #     message=f"{city} için veri güncellenemedi: {e}\nSaat: {time.ctime()}"
+            # )
             r.set(f"data_{city}", json.dumps({"error": True, "message": str(e)}))
 
 # 2 saatte bir güncelle

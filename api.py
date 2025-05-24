@@ -1,9 +1,14 @@
 # Flask API ile skor bilgisini kullanıcıya sunan endpoint
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from redis import Redis
 import json
 
+r = None
 app = Flask(__name__)
+# CORS ayarını tüm endpointler ve tüm originler için açık yap
+CORS(app, resources={r"/*": {"origins": "*"}})
+r = Redis(host="redis", port=6379)
 r = Redis(host="redis", port=6379)
 
 @app.route("/get_score", methods=["GET"])
