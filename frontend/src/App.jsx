@@ -113,6 +113,7 @@ function HomePage() {
   // API'den canlı veri çek
   const [score, setScore] = useState(null);
   const [status, setStatus] = useState('');
+  const [updatedAt, setUpdatedAt] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -136,6 +137,7 @@ function HomePage() {
       .then(data => {
         setScore(data.score);
         setStatus(data.status);
+        setUpdatedAt(data.updated_at || 'Bilinmiyor');
         setLoading(false);
       })
       .catch(e => {
@@ -178,6 +180,11 @@ function HomePage() {
         <p style={{ fontSize: 20, margin: '16px 0' }}>
           {fixCityName(city)} / {fixCityName(district)} için tahmini verim:
         </p>
+        {updatedAt && (
+          <div style={{ fontSize: 15, color: '#888', marginTop: 4 }}>
+            Son güncelleme: <b>{updatedAt}</b>
+          </div>
+        )}
       </header>
       <main style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
         {loading ? (
