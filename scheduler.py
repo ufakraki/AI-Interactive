@@ -48,6 +48,7 @@ CITIES = {
 }
 
 def update_data():
+    import datetime
     for city, coords in CITIES.items():
         try:
             print(f"[INFO] {city} için veri çekiliyor...")
@@ -56,12 +57,6 @@ def update_data():
             print(f"[DEBUG] get_weather_data sonrası: {w}")
             if not w:
                 print(f"[ERROR] {city} için hava verisi alınamadı, atlanıyor.")
-                # Hata durumunda e-posta gönderme (geliştirme için pasif)
-                # send_error_email(
-                #     subject=f"balikavi.com Hata: {city} için hava verisi alınamadı",
-                #     message=f"{city} için hava verisi alınamadı. Saat: {time.ctime()}"
-                # )
-                # Redis'e hata kaydı
                 r.set(f"data_{city}", json.dumps({"error": True, "message": "Hava verisi alınamadı"}))
                 continue
             print(f"[INFO] Hava verisi: {w}")
@@ -70,10 +65,6 @@ def update_data():
             print(f"[DEBUG] get_moon_phase sonrası: {m}")
             if not m:
                 print(f"[ERROR] {city} için ay evresi alınamadı, atlanıyor.")
-                # send_error_email(
-                #     subject=f"balikavi.com Hata: {city} için ay evresi alınamadı",
-                #     message=f"{city} için ay evresi alınamadı. Saat: {time.ctime()}"
-                # )
                 r.set(f"data_{city}", json.dumps({"error": True, "message": "Ay evresi alınamadı"}))
                 continue
             print(f"[INFO] Ay evresi: {m}")
@@ -92,15 +83,18 @@ def update_data():
                 season=season
             )
             print(f"[INFO] Skor: {score}")
+            # Türkiye saatiyle güncelleme zamanı ekle
+            now_tr = datetime.datetime.utcnow() + datetime.timedelta(hours=3)
+            updated_at = now_tr.strftime('%Y-%m-%d %H:%M:%S')
             # Sonuçları Redis'e kaydet
-            r.set(f"data_{city}", json.dumps({"score": score, "details": {**w, "moon": m}}))
-            print(f"[INFO] {city} için veri kaydedildi.")
+            r.set(f"data_{city}", json.dumps({
+                "score": score,
+                "details": {**w, "moon": m},
+                "updated_at": updated_at
+            }))
+            print(f"[INFO] {city} için veri kaydedildi. (Güncelleme saati: {updated_at})")
         except Exception as e:
             print(f"[ERROR] {city} için veri güncellenemedi: {e}")
-            # send_error_email(
-            #     subject=f"balikavi.com Hata: {city} için genel hata",
-            #     message=f"{city} için veri güncellenemedi: {e}\nSaat: {time.ctime()}"
-            # )
             r.set(f"data_{city}", json.dumps({"error": True, "message": str(e)}))
 
 # 2 saatte bir güncelle

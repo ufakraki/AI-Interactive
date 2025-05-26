@@ -101,50 +101,58 @@ function HomePage() {
 
 
   function PredictionPage() {
+
     // URL'den şehir ve ilçe bilgisini al
     const location = window.location;
     const params = new URLSearchParams(location.search);
     const city = params.get('city');
     const district = params.get('district');
-    // Ana sayfaya yönlendirme için useNavigate'i HomePage'den prop olarak alabiliriz
     const navigate = useNavigate();
 
+    // API'den canlı veri çek
+    const [score, setScore] = useState(null);
+    const [status, setStatus] = useState('');
+    const [updatedAt, setUpdatedAt] = useState('');
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
-  // API'den canlı veri çek
-  const [score, setScore] = useState(null);
-  const [status, setStatus] = useState('');
-  const [updatedAt, setUpdatedAt] = useState('');
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  // useEffect hook'unu kullan
-  useEffect(() => {
-    // Eğer city veya district yoksa ana sayfaya yönlendir
-    if (!city || !district) {
-      navigate('/');
-      return;
-    }
-    setLoading(true);
-    setError(null);
-    // API endpoint: /get_score?city=ilce_adi
-    // Not: API'de ilçe adı normalize edilerek sorgu yapılmalı
+    // city ve district parametrelerini normalize et
     const normalizedDistrict = normalizeCityName(district);
-    fetch(`http://localhost:5000/get_score?city=${encodeURIComponent(normalizedDistrict)}`)
-      .then(res => {
-        if (!res.ok) throw new Error('Veri alınamadı');
-        return res.json();
-      })
-      .then(data => {
-        setScore(data.score);
-        setStatus(data.status);
-        setUpdatedAt(data.updated_at || 'Bilinmiyor');
-        setLoading(false);
-      })
-      .catch(e => {
-        setError('Veri alınamadı.');
-        setLoading(false);
-      });
-  }, [city, district, navigate]);
+    // Dinamik sayfa başlığı için
+    useEffect(() => {
+      if (!city || !district) return;
+      if (score !== null && !loading && !error) {
+        let cityName = fixCityName(city);
+        let districtName = fixCityName(district);
+        document.title = `${cityName} ${districtName} İçin Balık Avı Tahmin Skoru %${score}`;
+      } else {
+        document.title = 'Türkiye Balık Avı Tahmin Sistemi';
+      }
+    }, [city, district, score, loading, error]);
+
+    useEffect(() => {
+      if (!city || !district) {
+        navigate('/');
+        return;
+      }
+      setLoading(true);
+      setError(null);
+      fetch(`http://localhost:5000/get_score?city=${encodeURIComponent(normalizedDistrict)}`)
+        .then(res => {
+          if (!res.ok) throw new Error('Veri alınamadı');
+          return res.json();
+        })
+        .then(data => {
+          setScore(data.score);
+          setStatus(data.status);
+          setUpdatedAt(data.updated_at || 'Bilinmiyor');
+          setLoading(false);
+        })
+        .catch(e => {
+          setError('Veri alınamadı.');
+          setLoading(false);
+        });
+    }, [normalizedDistrict, city, district, navigate]);
 
 
   // Yüzdesel değere göre renk hesaplama (yeşil-sarı-kırmızı arası geçiş)

@@ -22,7 +22,8 @@ def get_score():
     return jsonify({
         "score": data["score"],
         "status": "Verimli" if data["score"] >= 75 else "Orta" if data["score"] >= 50 else "Zayıf",
-        "details": data["details"]
+        "details": data["details"],
+        "updated_at": data.get("updated_at", "Bilinmiyor")
     })
 
 if __name__ == "__main__":
