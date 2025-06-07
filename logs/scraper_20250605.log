@@ -1,0 +1,1553 @@
+2025-06-05 00:05:19,673 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:05:19,674 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/1888-mills-llc.html
+2025-06-05 00:05:19,674 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/1888-mills-llc.html
+2025-06-05 00:05:26,539 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:05:26,540 - scraper - INFO -    📞 5 telefon
+2025-06-05 00:05:26,540 - scraper - INFO -    📧 1 email
+2025-06-05 00:05:26,541 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:05:26,541 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:05:26,542 - scraper - INFO -    📝 18 önemli metin
+2025-06-05 00:05:26,546 - scraper - INFO - ✅ Firma verisi işlendi: 1888 Mills, LLC
+2025-06-05 00:05:26,546 - scraper - INFO -    📞 Telefon: 5 adet
+2025-06-05 00:05:26,547 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:05:26,549 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:05:29,033 - scraper - INFO - Selenium tarayıcısı kapatıldı
+2025-06-05 00:06:35,989 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:06:35,991 - scraper - INFO - --- 1. SAYFA İŞLENİYOR ---
+2025-06-05 00:06:35,995 - scraper - INFO - Sayfa URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html
+2025-06-05 00:06:35,996 - scraper - INFO - 1. Ana liste sayfası yükleniyor...
+2025-06-05 00:06:35,997 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html
+2025-06-05 00:06:40,289 - scraper - INFO - 2. HTML parse ediliyor...
+2025-06-05 00:06:40,362 - scraper - INFO - 3. Firma linkleri aranıyor... Seçici: a[href*="exhibitor-search.detail.html"]
+2025-06-05 00:06:40,362 - scraper - INFO - Liste sayfasından firma linkleri çıkarılıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html
+2025-06-05 00:06:40,363 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html
+2025-06-05 00:06:43,881 - scraper - INFO - 🔍 30 adet potansiyel firma linki bulundu
+2025-06-05 00:06:43,941 - scraper - INFO - ✅ Toplam 30 adet geçerli firma linki bulundu
+2025-06-05 00:06:43,943 - scraper - INFO - Bu sayfada 30 firma linki bulundu
+2025-06-05 00:06:43,964 - scraper - INFO - 3. Firma detay verileri çekiliyor... (TÜM firmalar)
+2025-06-05 00:06:43,965 - scraper - INFO - Sayfa 1, Firma 1/30: İşleniyor...
+2025-06-05 00:06:43,966 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/1888-mills-llc.html#exhibitorheadline
+2025-06-05 00:06:43,967 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/1888-mills-llc.html#exhibitorheadline
+2025-06-05 00:06:43,968 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/1888-mills-llc.html#exhibitorheadline
+2025-06-05 00:06:49,614 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:06:49,615 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:06:49,615 - scraper - INFO -    📧 0 email
+2025-06-05 00:06:49,616 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:06:49,616 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:06:49,616 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:06:49,620 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:06:49,621 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:06:49,621 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:06:49,622 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:06:49,623 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:06:50,624 - scraper - INFO - Sayfa 1, Firma 2/30: İşleniyor...
+2025-06-05 00:06:50,628 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aa-canvas.html#exhibitorheadline
+2025-06-05 00:06:50,630 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aa-canvas.html#exhibitorheadline
+2025-06-05 00:06:50,633 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aa-canvas.html#exhibitorheadline
+2025-06-05 00:06:56,394 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:06:56,395 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:06:56,396 - scraper - INFO -    📧 0 email
+2025-06-05 00:06:56,396 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:06:56,397 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:06:56,397 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:06:56,399 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:06:56,400 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:06:56,400 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:06:56,401 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:06:56,402 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:06:57,403 - scraper - INFO - Sayfa 1, Firma 3/30: İşleniyor...
+2025-06-05 00:06:57,404 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aalto-university-foundation-sr.html#exhibitorheadline
+2025-06-05 00:06:57,417 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aalto-university-foundation-sr.html#exhibitorheadline
+2025-06-05 00:06:57,423 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aalto-university-foundation-sr.html#exhibitorheadline
+2025-06-05 00:07:03,069 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:07:03,069 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:07:03,070 - scraper - INFO -    📧 0 email
+2025-06-05 00:07:03,070 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:07:03,071 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:07:03,071 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:07:03,077 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:07:03,078 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:07:03,078 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:07:03,079 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:07:03,079 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:07:04,081 - scraper - INFO - Sayfa 1, Firma 4/30: İşleniyor...
+2025-06-05 00:07:04,082 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aarova-vzw.html#exhibitorheadline
+2025-06-05 00:07:04,084 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aarova-vzw.html#exhibitorheadline
+2025-06-05 00:07:04,087 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aarova-vzw.html#exhibitorheadline
+2025-06-05 00:07:09,847 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:07:09,848 - scraper - INFO -    📞 3 telefon
+2025-06-05 00:07:09,848 - scraper - INFO -    📧 2 email
+2025-06-05 00:07:09,849 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:07:09,849 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:07:09,849 - scraper - INFO -    📝 21 önemli metin
+2025-06-05 00:07:09,852 - scraper - INFO - ✅ Firma verisi işlendi: Aarova VZW
+2025-06-05 00:07:09,852 - scraper - INFO -    📞 Telefon: 3 adet
+2025-06-05 00:07:09,852 - scraper - INFO -    📧 Email: 2 adet
+2025-06-05 00:07:09,853 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:07:09,854 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Aarova VZW
+2025-06-05 00:07:10,855 - scraper - INFO - Sayfa 1, Firma 5/30: İşleniyor...
+2025-06-05 00:07:10,860 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aauraa-home-fashion-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:07:10,863 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aauraa-home-fashion-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:07:10,866 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aauraa-home-fashion-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:07:17,638 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:07:17,639 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:07:17,640 - scraper - INFO -    📧 1 email
+2025-06-05 00:07:17,641 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:07:17,641 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:07:17,642 - scraper - INFO -    📝 13 önemli metin
+2025-06-05 00:07:17,644 - scraper - INFO - ✅ Firma verisi işlendi: Table Linens
+2025-06-05 00:07:17,645 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:07:17,645 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:07:17,646 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:07:17,646 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Table Linens
+2025-06-05 00:07:18,647 - scraper - INFO - Sayfa 1, Firma 6/30: İşleniyor...
+2025-06-05 00:07:18,649 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abbs-international-inc.html#exhibitorheadline
+2025-06-05 00:07:18,652 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abbs-international-inc.html#exhibitorheadline
+2025-06-05 00:07:18,654 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abbs-international-inc.html#exhibitorheadline
+2025-06-05 00:07:25,312 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:07:25,313 - scraper - INFO -    📞 3 telefon
+2025-06-05 00:07:25,313 - scraper - INFO -    📧 1 email
+2025-06-05 00:07:25,314 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:07:25,314 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:07:25,315 - scraper - INFO -    📝 19 önemli metin
+2025-06-05 00:07:25,317 - scraper - INFO - ✅ Firma verisi işlendi: ABBS International Inc.
+2025-06-05 00:07:25,317 - scraper - INFO -    📞 Telefon: 3 adet
+2025-06-05 00:07:25,318 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:07:25,318 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:07:25,319 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: ABBS International Inc.
+2025-06-05 00:07:26,321 - scraper - INFO - Sayfa 1, Firma 7/30: İşleniyor...
+2025-06-05 00:07:26,328 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abc-italia-srl.html#exhibitorheadline
+2025-06-05 00:07:26,330 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abc-italia-srl.html#exhibitorheadline
+2025-06-05 00:07:26,335 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abc-italia-srl.html#exhibitorheadline
+2025-06-05 00:07:32,100 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:07:32,101 - scraper - INFO -    📞 5 telefon
+2025-06-05 00:07:32,101 - scraper - INFO -    📧 3 email
+2025-06-05 00:07:32,101 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:07:32,102 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:07:32,102 - scraper - INFO -    📝 27 önemli metin
+2025-06-05 00:07:32,108 - scraper - INFO - ✅ Firma verisi işlendi: ABC Italia S.r.l.
+2025-06-05 00:07:32,109 - scraper - INFO -    📞 Telefon: 5 adet
+2025-06-05 00:07:32,110 - scraper - INFO -    📧 Email: 3 adet
+2025-06-05 00:07:32,111 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:07:32,112 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: ABC Italia S.r.l.
+2025-06-05 00:07:33,114 - scraper - INFO - Sayfa 1, Firma 8/30: İşleniyor...
+2025-06-05 00:07:33,116 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abc-tekstil-sanayi-ve-ticaret-as.html#exhibitorheadline
+2025-06-05 00:07:33,119 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abc-tekstil-sanayi-ve-ticaret-as.html#exhibitorheadline
+2025-06-05 00:07:33,121 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abc-tekstil-sanayi-ve-ticaret-as.html#exhibitorheadline
+2025-06-05 00:07:38,729 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:07:38,729 - scraper - INFO -    📞 5 telefon
+2025-06-05 00:07:38,730 - scraper - INFO -    📧 2 email
+2025-06-05 00:07:38,730 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:07:38,731 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:07:38,732 - scraper - INFO -    📝 17 önemli metin
+2025-06-05 00:07:38,735 - scraper - INFO - ✅ Firma verisi işlendi: ABC Tekstil Sanayi ve Ticaret A.S.
+2025-06-05 00:07:38,735 - scraper - INFO -    📞 Telefon: 5 adet
+2025-06-05 00:07:38,736 - scraper - INFO -    📧 Email: 2 adet
+2025-06-05 00:07:38,736 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:07:38,737 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: ABC Tekstil Sanayi ve Ticaret A.S.
+2025-06-05 00:07:39,740 - scraper - INFO - Sayfa 1, Firma 9/30: İşleniyor...
+2025-06-05 00:07:39,741 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdul-ahad-textile-mills-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:07:39,743 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdul-ahad-textile-mills-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:07:39,744 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdul-ahad-textile-mills-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:07:45,452 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:07:45,452 - scraper - INFO -    📞 2 telefon
+2025-06-05 00:07:45,453 - scraper - INFO -    📧 1 email
+2025-06-05 00:07:45,453 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:07:45,456 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:07:45,458 - scraper - INFO -    📝 12 önemli metin
+2025-06-05 00:07:45,462 - scraper - INFO - ✅ Firma verisi işlendi: Abdul Ahad Textile Mills (Pvt) Ltd.
+2025-06-05 00:07:45,462 - scraper - INFO -    📞 Telefon: 2 adet
+2025-06-05 00:07:45,463 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:07:45,465 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:07:45,466 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Abdul Ahad Textile Mills (Pvt) Ltd.
+2025-06-05 00:07:46,467 - scraper - INFO - Sayfa 1, Firma 10/30: İşleniyor...
+2025-06-05 00:07:46,469 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdullah-textile.html#exhibitorheadline
+2025-06-05 00:07:46,475 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdullah-textile.html#exhibitorheadline
+2025-06-05 00:07:46,482 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdullah-textile.html#exhibitorheadline
+2025-06-05 00:07:52,368 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:07:52,368 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:07:52,368 - scraper - INFO -    📧 0 email
+2025-06-05 00:07:52,369 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:07:52,369 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:07:52,371 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:07:52,374 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:07:52,374 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:07:52,375 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:07:52,375 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:07:52,376 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:07:53,377 - scraper - INFO - Sayfa 1, Firma 11/30: İşleniyor...
+2025-06-05 00:07:53,377 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdur-rahman-corporation-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:07:53,379 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdur-rahman-corporation-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:07:53,379 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdur-rahman-corporation-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:07:59,066 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:07:59,067 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:07:59,067 - scraper - INFO -    📧 0 email
+2025-06-05 00:07:59,067 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:07:59,068 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:07:59,068 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:07:59,076 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:07:59,077 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:07:59,077 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:07:59,078 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:07:59,078 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:08:00,079 - scraper - INFO - Sayfa 1, Firma 12/30: İşleniyor...
+2025-06-05 00:08:00,080 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/ab-export-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:08:00,080 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/ab-export-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:08:00,081 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/ab-export-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:08:05,798 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:08:05,799 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:08:05,799 - scraper - INFO -    📧 0 email
+2025-06-05 00:08:05,800 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:08:05,800 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:08:05,801 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:08:05,805 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:08:05,806 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:08:05,807 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:08:05,808 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:08:05,809 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:08:06,809 - scraper - INFO - Sayfa 1, Firma 13/30: İşleniyor...
+2025-06-05 00:08:06,810 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abida-international.html#exhibitorheadline
+2025-06-05 00:08:06,811 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abida-international.html#exhibitorheadline
+2025-06-05 00:08:06,811 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abida-international.html#exhibitorheadline
+2025-06-05 00:08:12,431 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:08:12,432 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:08:12,432 - scraper - INFO -    📧 0 email
+2025-06-05 00:08:12,433 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:08:12,433 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:08:12,433 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:08:12,440 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:08:12,440 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:08:12,441 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:08:12,441 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:08:12,442 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:08:13,443 - scraper - INFO - Sayfa 1, Firma 14/30: İşleniyor...
+2025-06-05 00:08:13,445 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abinaya-grineters.html#exhibitorheadline
+2025-06-05 00:08:13,448 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abinaya-grineters.html#exhibitorheadline
+2025-06-05 00:08:13,450 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abinaya-grineters.html#exhibitorheadline
+2025-06-05 00:08:19,175 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:08:19,175 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:08:19,176 - scraper - INFO -    📧 0 email
+2025-06-05 00:08:19,176 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:08:19,177 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:08:19,177 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:08:19,179 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:08:19,180 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:08:19,180 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:08:19,181 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:08:19,181 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:08:20,182 - scraper - INFO - Sayfa 1, Firma 15/30: İşleniyor...
+2025-06-05 00:08:20,183 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/tongxiang-able-textile-co-ltd.html#exhibitorheadline
+2025-06-05 00:08:20,183 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/tongxiang-able-textile-co-ltd.html#exhibitorheadline
+2025-06-05 00:08:20,184 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/tongxiang-able-textile-co-ltd.html#exhibitorheadline
+2025-06-05 00:08:25,980 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:08:25,981 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:08:25,981 - scraper - INFO -    📧 0 email
+2025-06-05 00:08:25,982 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:08:25,982 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:08:25,982 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:08:25,988 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:08:25,988 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:08:25,989 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:08:25,990 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:08:25,991 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:08:26,992 - scraper - INFO - Sayfa 1, Firma 16/30: İşleniyor...
+2025-06-05 00:08:26,994 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abn-pazarlama-konfeksiyon-tekstil-san-ve-tic-ltd-sti.html#exhibitorheadline
+2025-06-05 00:08:26,997 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abn-pazarlama-konfeksiyon-tekstil-san-ve-tic-ltd-sti.html#exhibitorheadline
+2025-06-05 00:08:27,007 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abn-pazarlama-konfeksiyon-tekstil-san-ve-tic-ltd-sti.html#exhibitorheadline
+2025-06-05 00:08:34,943 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:08:34,943 - scraper - INFO -    📞 3 telefon
+2025-06-05 00:08:34,943 - scraper - INFO -    📧 1 email
+2025-06-05 00:08:34,944 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:08:34,944 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:08:34,945 - scraper - INFO -    📝 13 önemli metin
+2025-06-05 00:08:34,947 - scraper - INFO - ✅ Firma verisi işlendi: ABN Pazarlama Konfeksiyon Tekstil San. ve Tic. Ltd. Sti.
+2025-06-05 00:08:34,947 - scraper - INFO -    📞 Telefon: 3 adet
+2025-06-05 00:08:34,948 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:08:34,949 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:08:34,949 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: ABN Pazarlama Konfeksiyon Tekstil San. ve Tic. Ltd. Sti.
+2025-06-05 00:08:35,953 - scraper - INFO - Sayfa 1, Firma 17/30: İşleniyor...
+2025-06-05 00:08:35,954 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abs-international.html#exhibitorheadline
+2025-06-05 00:08:35,956 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abs-international.html#exhibitorheadline
+2025-06-05 00:08:35,957 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abs-international.html#exhibitorheadline
+2025-06-05 00:08:41,651 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:08:41,652 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:08:41,653 - scraper - INFO -    📧 0 email
+2025-06-05 00:08:41,653 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:08:41,654 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:08:41,654 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:08:41,658 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:08:41,658 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:08:41,659 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:08:41,659 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:08:41,660 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:08:42,661 - scraper - INFO - Sayfa 1, Firma 18/30: İşleniyor...
+2025-06-05 00:08:42,661 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/accent-textiles-co-ltd.html#exhibitorheadline
+2025-06-05 00:08:42,662 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/accent-textiles-co-ltd.html#exhibitorheadline
+2025-06-05 00:08:42,663 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/accent-textiles-co-ltd.html#exhibitorheadline
+2025-06-05 00:08:48,423 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:08:48,423 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:08:48,423 - scraper - INFO -    📧 1 email
+2025-06-05 00:08:48,424 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:08:48,424 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:08:48,425 - scraper - INFO -    📝 12 önemli metin
+2025-06-05 00:08:48,427 - scraper - INFO - ✅ Firma verisi işlendi: Accent Textiles Co., Ltd.
+2025-06-05 00:08:48,427 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:08:48,428 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:08:48,428 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:08:48,429 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Accent Textiles Co., Ltd.
+2025-06-05 00:08:49,430 - scraper - INFO - Sayfa 1, Firma 19/30: İşleniyor...
+2025-06-05 00:08:49,435 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/accessory-arcade.html#exhibitorheadline
+2025-06-05 00:08:49,438 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/accessory-arcade.html#exhibitorheadline
+2025-06-05 00:08:49,444 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/accessory-arcade.html#exhibitorheadline
+2025-06-05 00:08:55,023 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:08:55,023 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:08:55,024 - scraper - INFO -    📧 0 email
+2025-06-05 00:08:55,024 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:08:55,024 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:08:55,025 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:08:55,027 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:08:55,027 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:08:55,028 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:08:55,028 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:08:55,029 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:08:56,030 - scraper - INFO - Sayfa 1, Firma 20/30: İşleniyor...
+2025-06-05 00:08:56,039 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/yantai-ace-home-fashion-coltd.html#exhibitorheadline
+2025-06-05 00:08:56,041 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/yantai-ace-home-fashion-coltd.html#exhibitorheadline
+2025-06-05 00:08:56,044 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/yantai-ace-home-fashion-coltd.html#exhibitorheadline
+2025-06-05 00:09:01,680 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:09:01,680 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:09:01,681 - scraper - INFO -    📧 0 email
+2025-06-05 00:09:01,683 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:09:01,683 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:09:01,684 - scraper - INFO -    📝 9 önemli metin
+2025-06-05 00:09:01,688 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:09:01,689 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:09:01,690 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:09:01,691 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:09:01,691 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:09:02,693 - scraper - INFO - Sayfa 1, Firma 21/30: İşleniyor...
+2025-06-05 00:09:02,694 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acg-kinna-automatic-ab.html#exhibitorheadline
+2025-06-05 00:09:02,696 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acg-kinna-automatic-ab.html#exhibitorheadline
+2025-06-05 00:09:02,698 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acg-kinna-automatic-ab.html#exhibitorheadline
+2025-06-05 00:09:08,422 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:09:08,423 - scraper - INFO -    📞 8 telefon
+2025-06-05 00:09:08,423 - scraper - INFO -    📧 3 email
+2025-06-05 00:09:08,424 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:09:08,425 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:09:08,425 - scraper - INFO -    📝 24 önemli metin
+2025-06-05 00:09:08,428 - scraper - INFO - ✅ Firma verisi işlendi: Acg Kinna Automatic AB
+2025-06-05 00:09:08,429 - scraper - INFO -    📞 Telefon: 8 adet
+2025-06-05 00:09:08,429 - scraper - INFO -    📧 Email: 3 adet
+2025-06-05 00:09:08,430 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:09:08,430 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Acg Kinna Automatic AB
+2025-06-05 00:09:09,433 - scraper - INFO - Sayfa 1, Firma 22/30: İşleniyor...
+2025-06-05 00:09:09,435 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/achille-valera-lissoni-srl.html#exhibitorheadline
+2025-06-05 00:09:09,437 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/achille-valera-lissoni-srl.html#exhibitorheadline
+2025-06-05 00:09:09,438 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/achille-valera-lissoni-srl.html#exhibitorheadline
+2025-06-05 00:09:15,000 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:09:15,001 - scraper - INFO -    📞 4 telefon
+2025-06-05 00:09:15,002 - scraper - INFO -    📧 1 email
+2025-06-05 00:09:15,002 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:09:15,003 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:09:15,004 - scraper - INFO -    📝 12 önemli metin
+2025-06-05 00:09:15,006 - scraper - INFO - ✅ Firma verisi işlendi: Achille Valera Lissoni Srl
+2025-06-05 00:09:15,006 - scraper - INFO -    📞 Telefon: 4 adet
+2025-06-05 00:09:15,007 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:09:15,008 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:09:15,008 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Achille Valera Lissoni Srl
+2025-06-05 00:09:16,009 - scraper - INFO - Sayfa 1, Firma 23/30: İşleniyor...
+2025-06-05 00:09:16,010 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acl-impex-lda.html#exhibitorheadline
+2025-06-05 00:09:16,012 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acl-impex-lda.html#exhibitorheadline
+2025-06-05 00:09:16,013 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acl-impex-lda.html#exhibitorheadline
+2025-06-05 00:09:21,608 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:09:21,609 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:09:21,609 - scraper - INFO -    📧 0 email
+2025-06-05 00:09:21,610 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:09:21,610 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:09:21,610 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:09:21,613 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:09:21,617 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:09:21,620 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:09:21,620 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:09:21,621 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:09:22,623 - scraper - INFO - Sayfa 1, Firma 24/30: İşleniyor...
+2025-06-05 00:09:22,625 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acme-mills-private-limited.html#exhibitorheadline
+2025-06-05 00:09:22,627 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acme-mills-private-limited.html#exhibitorheadline
+2025-06-05 00:09:22,632 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acme-mills-private-limited.html#exhibitorheadline
+2025-06-05 00:09:28,366 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:09:28,367 - scraper - INFO -    📞 9 telefon
+2025-06-05 00:09:28,369 - scraper - INFO -    📧 5 email
+2025-06-05 00:09:28,369 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:09:28,370 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:09:28,370 - scraper - INFO -    📝 31 önemli metin
+2025-06-05 00:09:28,373 - scraper - INFO - ✅ Firma verisi işlendi: ACME MILLS (PRIVATE) LIMITED
+2025-06-05 00:09:28,374 - scraper - INFO -    📞 Telefon: 9 adet
+2025-06-05 00:09:28,375 - scraper - INFO -    📧 Email: 5 adet
+2025-06-05 00:09:28,375 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:09:28,376 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: ACME MILLS (PRIVATE) LIMITED
+2025-06-05 00:09:29,377 - scraper - INFO - Sayfa 1, Firma 25/30: İşleniyor...
+2025-06-05 00:09:29,377 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acquitaine-ltd.html#exhibitorheadline
+2025-06-05 00:09:29,378 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acquitaine-ltd.html#exhibitorheadline
+2025-06-05 00:09:29,379 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acquitaine-ltd.html#exhibitorheadline
+2025-06-05 00:09:35,001 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:09:35,002 - scraper - INFO -    📞 4 telefon
+2025-06-05 00:09:35,002 - scraper - INFO -    📧 1 email
+2025-06-05 00:09:35,003 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:09:35,003 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:09:35,004 - scraper - INFO -    📝 12 önemli metin
+2025-06-05 00:09:35,007 - scraper - INFO - ✅ Firma verisi işlendi: Acquitaine Ltd.
+2025-06-05 00:09:35,007 - scraper - INFO -    📞 Telefon: 4 adet
+2025-06-05 00:09:35,008 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:09:35,008 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:09:35,009 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Acquitaine Ltd.
+2025-06-05 00:09:36,010 - scraper - INFO - Sayfa 1, Firma 26/30: İşleniyor...
+2025-06-05 00:09:36,011 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acs-textiles-bangladesh-limited.html#exhibitorheadline
+2025-06-05 00:09:36,015 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acs-textiles-bangladesh-limited.html#exhibitorheadline
+2025-06-05 00:09:36,016 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acs-textiles-bangladesh-limited.html#exhibitorheadline
+2025-06-05 00:09:41,832 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:09:41,833 - scraper - INFO -    📞 4 telefon
+2025-06-05 00:09:41,834 - scraper - INFO -    📧 1 email
+2025-06-05 00:09:41,834 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:09:41,835 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:09:41,835 - scraper - INFO -    📝 17 önemli metin
+2025-06-05 00:09:41,838 - scraper - INFO - ✅ Firma verisi işlendi: ACS Textiles (Bangladesh) Limited
+2025-06-05 00:09:41,838 - scraper - INFO -    📞 Telefon: 4 adet
+2025-06-05 00:09:41,839 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:09:41,840 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:09:41,840 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: ACS Textiles (Bangladesh) Limited
+2025-06-05 00:09:42,841 - scraper - INFO - Sayfa 1, Firma 27/30: İşleniyor...
+2025-06-05 00:09:42,842 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adamjee-textile-mills-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:09:42,842 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adamjee-textile-mills-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:09:42,843 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adamjee-textile-mills-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:09:48,617 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:09:48,618 - scraper - INFO -    📞 7 telefon
+2025-06-05 00:09:48,618 - scraper - INFO -    📧 1 email
+2025-06-05 00:09:48,619 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:09:48,620 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:09:48,621 - scraper - INFO -    📝 22 önemli metin
+2025-06-05 00:09:48,623 - scraper - INFO - ✅ Firma verisi işlendi: Adamjee Textile Mills (Pvt) Ltd.
+2025-06-05 00:09:48,624 - scraper - INFO -    📞 Telefon: 7 adet
+2025-06-05 00:09:48,625 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:09:48,626 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:09:48,626 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Adamjee Textile Mills (Pvt) Ltd.
+2025-06-05 00:09:49,629 - scraper - INFO - Sayfa 1, Firma 28/30: İşleniyor...
+2025-06-05 00:09:49,634 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adarsh-exports.html#exhibitorheadline
+2025-06-05 00:09:49,636 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adarsh-exports.html#exhibitorheadline
+2025-06-05 00:09:49,639 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adarsh-exports.html#exhibitorheadline
+2025-06-05 00:09:56,621 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:09:56,621 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:09:56,622 - scraper - INFO -    📧 0 email
+2025-06-05 00:09:56,622 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:09:56,623 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:09:56,623 - scraper - INFO -    📝 10 önemli metin
+2025-06-05 00:09:56,625 - scraper - INFO - ✅ Firma verisi işlendi: Adarsh Exports
+2025-06-05 00:09:56,626 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:09:56,626 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:09:56,628 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:09:56,629 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Adarsh Exports
+2025-06-05 00:09:57,630 - scraper - INFO - Sayfa 1, Firma 29/30: İşleniyor...
+2025-06-05 00:09:57,632 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/astrid-davidse-design.html#exhibitorheadline
+2025-06-05 00:09:57,635 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/astrid-davidse-design.html#exhibitorheadline
+2025-06-05 00:09:57,637 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/astrid-davidse-design.html#exhibitorheadline
+2025-06-05 00:10:03,204 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:10:03,204 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:10:03,205 - scraper - INFO -    📧 1 email
+2025-06-05 00:10:03,205 - scraper - INFO -    🌐 3 web sitesi
+2025-06-05 00:10:03,206 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:10:03,206 - scraper - INFO -    📝 12 önemli metin
+2025-06-05 00:10:03,210 - scraper - INFO - ✅ Firma verisi işlendi: AD Design & Color by Astrid Davidse
+2025-06-05 00:10:03,215 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:10:03,216 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:10:03,216 - scraper - INFO -    🌐 Web: 3 adet
+2025-06-05 00:10:03,217 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: AD Design & Color by Astrid Davidse
+2025-06-05 00:10:04,218 - scraper - INFO - Sayfa 1, Firma 30/30: İşleniyor...
+2025-06-05 00:10:04,223 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adea-tekstil.html#exhibitorheadline
+2025-06-05 00:10:04,225 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adea-tekstil.html#exhibitorheadline
+2025-06-05 00:10:04,234 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adea-tekstil.html#exhibitorheadline
+2025-06-05 00:10:09,857 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:10:09,858 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:10:09,858 - scraper - INFO -    📧 0 email
+2025-06-05 00:10:09,859 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:10:09,862 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:10:09,866 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:10:09,873 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:10:09,874 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:10:09,874 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:10:09,875 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:10:09,878 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:10:10,880 - scraper - INFO - Sayfa 1 tamamlandı. Toplam 30 firma işlendi.
+2025-06-05 00:10:10,882 - scraper - INFO - Sonraki sayfa aranıyor...
+2025-06-05 00:10:10,885 - scraper - INFO - 🔍 Gelişmiş pagination tespit sistemi çalışıyor...
+2025-06-05 00:10:10,887 - scraper - INFO - 1. Geleneksel next button aranıyor...
+2025-06-05 00:10:10,988 - scraper - INFO - 2. Heimtextil özel pagination deneniyor...
+2025-06-05 00:10:10,989 - scraper - INFO -    Using list page URL: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html
+2025-06-05 00:10:10,989 - scraper - INFO - ✅ Yeni p=2 parametresi eklendi: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=2
+2025-06-05 00:10:10,990 - scraper - INFO - 🧪 Test ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=2
+2025-06-05 00:10:20,816 - scraper - INFO - ✅ Test URL farklı içerik döndürüyor: 0 -> 30
+2025-06-05 00:10:20,818 - scraper - INFO - ✅ Geleneksel pagination - Sonraki sayfa: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=2
+2025-06-05 00:10:22,821 - scraper - INFO - --- 2. SAYFA İŞLENİYOR ---
+2025-06-05 00:10:22,823 - scraper - INFO - Sayfa URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=2
+2025-06-05 00:10:22,825 - scraper - INFO - 1. Ana liste sayfası yükleniyor...
+2025-06-05 00:10:22,830 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=2
+2025-06-05 00:10:26,314 - scraper - INFO - 2. HTML parse ediliyor...
+2025-06-05 00:10:26,745 - scraper - INFO - 3. Firma linkleri aranıyor... Seçici: a[href*="exhibitor-search.detail.html"]
+2025-06-05 00:10:26,745 - scraper - INFO - Liste sayfasından firma linkleri çıkarılıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=2
+2025-06-05 00:10:26,746 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=2
+2025-06-05 00:10:29,810 - scraper - INFO - 🔍 30 adet potansiyel firma linki bulundu
+2025-06-05 00:10:29,811 - scraper - INFO - ✅ Toplam 30 adet geçerli firma linki bulundu
+2025-06-05 00:10:29,812 - scraper - INFO - Bu sayfada 30 firma linki bulundu
+2025-06-05 00:10:29,812 - scraper - INFO - 3. Firma detay verileri çekiliyor... (TÜM firmalar)
+2025-06-05 00:10:29,813 - scraper - INFO - Firma 1 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/1888-mills-llc.html#exhibitorheadline
+2025-06-05 00:10:29,813 - scraper - INFO - Firma 2 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aa-canvas.html#exhibitorheadline
+2025-06-05 00:10:29,814 - scraper - INFO - Firma 3 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aalto-university-foundation-sr.html#exhibitorheadline
+2025-06-05 00:10:29,814 - scraper - INFO - Firma 4 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aarova-vzw.html#exhibitorheadline
+2025-06-05 00:10:29,815 - scraper - INFO - Firma 5 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aauraa-home-fashion-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:10:29,816 - scraper - INFO - Firma 6 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abbs-international-inc.html#exhibitorheadline
+2025-06-05 00:10:29,817 - scraper - INFO - Firma 7 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abc-italia-srl.html#exhibitorheadline
+2025-06-05 00:10:29,818 - scraper - INFO - Firma 8 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abc-tekstil-sanayi-ve-ticaret-as.html#exhibitorheadline
+2025-06-05 00:10:29,818 - scraper - INFO - Firma 9 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdul-ahad-textile-mills-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:10:29,819 - scraper - INFO - Firma 10 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdullah-textile.html#exhibitorheadline
+2025-06-05 00:10:29,820 - scraper - INFO - Firma 11 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdur-rahman-corporation-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:10:29,821 - scraper - INFO - Firma 12 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/ab-export-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:10:29,822 - scraper - INFO - Firma 13 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abida-international.html#exhibitorheadline
+2025-06-05 00:10:29,822 - scraper - INFO - Firma 14 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abinaya-grineters.html#exhibitorheadline
+2025-06-05 00:10:29,823 - scraper - INFO - Firma 15 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/tongxiang-able-textile-co-ltd.html#exhibitorheadline
+2025-06-05 00:10:29,824 - scraper - INFO - Firma 16 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abn-pazarlama-konfeksiyon-tekstil-san-ve-tic-ltd-sti.html#exhibitorheadline
+2025-06-05 00:10:29,824 - scraper - INFO - Firma 17 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abs-international.html#exhibitorheadline
+2025-06-05 00:10:29,826 - scraper - INFO - Firma 18 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/accent-textiles-co-ltd.html#exhibitorheadline
+2025-06-05 00:10:29,827 - scraper - INFO - Firma 19 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/accessory-arcade.html#exhibitorheadline
+2025-06-05 00:10:29,829 - scraper - INFO - Firma 20 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/yantai-ace-home-fashion-coltd.html#exhibitorheadline
+2025-06-05 00:10:29,830 - scraper - INFO - Firma 21 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acg-kinna-automatic-ab.html#exhibitorheadline
+2025-06-05 00:10:29,831 - scraper - INFO - Firma 22 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/achille-valera-lissoni-srl.html#exhibitorheadline
+2025-06-05 00:10:29,832 - scraper - INFO - Firma 23 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acl-impex-lda.html#exhibitorheadline
+2025-06-05 00:10:29,833 - scraper - INFO - Firma 24 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acme-mills-private-limited.html#exhibitorheadline
+2025-06-05 00:10:29,833 - scraper - INFO - Firma 25 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acquitaine-ltd.html#exhibitorheadline
+2025-06-05 00:10:29,834 - scraper - INFO - Firma 26 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acs-textiles-bangladesh-limited.html#exhibitorheadline
+2025-06-05 00:10:29,834 - scraper - INFO - Firma 27 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adamjee-textile-mills-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:10:29,835 - scraper - INFO - Firma 28 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adarsh-exports.html#exhibitorheadline
+2025-06-05 00:10:29,835 - scraper - INFO - Firma 29 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/astrid-davidse-design.html#exhibitorheadline
+2025-06-05 00:10:29,836 - scraper - INFO - Firma 30 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adea-tekstil.html#exhibitorheadline
+2025-06-05 00:10:29,838 - scraper - INFO - Sayfa 2 tamamlandı. Toplam 0 firma işlendi.
+2025-06-05 00:10:29,839 - scraper - INFO - Sonraki sayfa aranıyor...
+2025-06-05 00:10:29,839 - scraper - INFO - 🔍 Gelişmiş pagination tespit sistemi çalışıyor...
+2025-06-05 00:10:29,840 - scraper - INFO - 1. Geleneksel next button aranıyor...
+2025-06-05 00:10:30,136 - scraper - INFO - 2. Heimtextil özel pagination deneniyor...
+2025-06-05 00:10:30,136 - scraper - INFO -    Using list page URL: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=2
+2025-06-05 00:10:30,137 - scraper - INFO - ✅ URL p parametresi güncellendi: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=3
+2025-06-05 00:10:30,138 - scraper - INFO - ✅ Geleneksel pagination - Sonraki sayfa: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=3
+2025-06-05 00:10:32,139 - scraper - INFO - --- 3. SAYFA İŞLENİYOR ---
+2025-06-05 00:10:32,139 - scraper - INFO - Sayfa URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=3
+2025-06-05 00:10:32,140 - scraper - INFO - 1. Ana liste sayfası yükleniyor...
+2025-06-05 00:10:32,140 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=3
+2025-06-05 00:10:34,779 - scraper - INFO - 2. HTML parse ediliyor...
+2025-06-05 00:10:35,789 - scraper - INFO - 3. Firma linkleri aranıyor... Seçici: a[href*="exhibitor-search.detail.html"]
+2025-06-05 00:10:35,789 - scraper - INFO - Liste sayfasından firma linkleri çıkarılıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=3
+2025-06-05 00:10:35,790 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=3
+2025-06-05 00:10:38,923 - scraper - INFO - 🔍 30 adet potansiyel firma linki bulundu
+2025-06-05 00:10:38,926 - scraper - INFO - ✅ Toplam 30 adet geçerli firma linki bulundu
+2025-06-05 00:10:38,927 - scraper - INFO - Bu sayfada 30 firma linki bulundu
+2025-06-05 00:10:38,927 - scraper - INFO - 3. Firma detay verileri çekiliyor... (TÜM firmalar)
+2025-06-05 00:10:38,928 - scraper - INFO - Firma 1 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/1888-mills-llc.html#exhibitorheadline
+2025-06-05 00:10:38,928 - scraper - INFO - Firma 2 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aa-canvas.html#exhibitorheadline
+2025-06-05 00:10:38,929 - scraper - INFO - Firma 3 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aalto-university-foundation-sr.html#exhibitorheadline
+2025-06-05 00:10:38,929 - scraper - INFO - Firma 4 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aarova-vzw.html#exhibitorheadline
+2025-06-05 00:10:38,930 - scraper - INFO - Firma 5 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aauraa-home-fashion-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:10:38,931 - scraper - INFO - Firma 6 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abbs-international-inc.html#exhibitorheadline
+2025-06-05 00:10:38,932 - scraper - INFO - Firma 7 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abc-italia-srl.html#exhibitorheadline
+2025-06-05 00:10:38,932 - scraper - INFO - Firma 8 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abc-tekstil-sanayi-ve-ticaret-as.html#exhibitorheadline
+2025-06-05 00:10:38,933 - scraper - INFO - Firma 9 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdul-ahad-textile-mills-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:10:38,934 - scraper - INFO - Firma 10 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdullah-textile.html#exhibitorheadline
+2025-06-05 00:10:38,936 - scraper - INFO - Firma 11 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abdur-rahman-corporation-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:10:38,937 - scraper - INFO - Firma 12 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/ab-export-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:10:38,938 - scraper - INFO - Firma 13 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abida-international.html#exhibitorheadline
+2025-06-05 00:10:38,939 - scraper - INFO - Firma 14 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abinaya-grineters.html#exhibitorheadline
+2025-06-05 00:10:38,939 - scraper - INFO - Firma 15 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/tongxiang-able-textile-co-ltd.html#exhibitorheadline
+2025-06-05 00:10:38,940 - scraper - INFO - Firma 16 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abn-pazarlama-konfeksiyon-tekstil-san-ve-tic-ltd-sti.html#exhibitorheadline
+2025-06-05 00:10:38,942 - scraper - INFO - Firma 17 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/abs-international.html#exhibitorheadline
+2025-06-05 00:10:38,943 - scraper - INFO - Firma 18 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/accent-textiles-co-ltd.html#exhibitorheadline
+2025-06-05 00:10:38,945 - scraper - INFO - Firma 19 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/accessory-arcade.html#exhibitorheadline
+2025-06-05 00:10:38,945 - scraper - INFO - Firma 20 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/yantai-ace-home-fashion-coltd.html#exhibitorheadline
+2025-06-05 00:10:38,946 - scraper - INFO - Firma 21 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acg-kinna-automatic-ab.html#exhibitorheadline
+2025-06-05 00:10:38,947 - scraper - INFO - Firma 22 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/achille-valera-lissoni-srl.html#exhibitorheadline
+2025-06-05 00:10:38,948 - scraper - INFO - Firma 23 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acl-impex-lda.html#exhibitorheadline
+2025-06-05 00:10:38,949 - scraper - INFO - Firma 24 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acme-mills-private-limited.html#exhibitorheadline
+2025-06-05 00:10:38,951 - scraper - INFO - Firma 25 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acquitaine-ltd.html#exhibitorheadline
+2025-06-05 00:10:38,952 - scraper - INFO - Firma 26 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/acs-textiles-bangladesh-limited.html#exhibitorheadline
+2025-06-05 00:10:38,953 - scraper - INFO - Firma 27 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adamjee-textile-mills-pvt-ltd.html#exhibitorheadline
+2025-06-05 00:10:38,954 - scraper - INFO - Firma 28 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adarsh-exports.html#exhibitorheadline
+2025-06-05 00:10:38,955 - scraper - INFO - Firma 29 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/astrid-davidse-design.html#exhibitorheadline
+2025-06-05 00:10:38,956 - scraper - INFO - Firma 30 zaten işlenmiş, atlanıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/adea-tekstil.html#exhibitorheadline
+2025-06-05 00:10:38,956 - scraper - INFO - Sayfa 3 tamamlandı. Toplam 0 firma işlendi.
+2025-06-05 00:10:38,957 - scraper - INFO - Sonraki sayfa aranıyor...
+2025-06-05 00:10:38,957 - scraper - INFO - 🔍 Gelişmiş pagination tespit sistemi çalışıyor...
+2025-06-05 00:10:38,959 - scraper - INFO - 1. Geleneksel next button aranıyor...
+2025-06-05 00:10:39,243 - scraper - INFO - 2. Heimtextil özel pagination deneniyor...
+2025-06-05 00:10:39,244 - scraper - INFO -    Using list page URL: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=3
+2025-06-05 00:10:39,244 - scraper - INFO - ✅ URL p parametresi güncellendi: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=4
+2025-06-05 00:10:39,245 - scraper - INFO - ✅ Geleneksel pagination - Sonraki sayfa: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html?p=4
+2025-06-05 00:10:41,245 - scraper - INFO - 🎉 VERİ ÇEKME İŞLEMİ TAMAMLANDI!
+2025-06-05 00:10:41,246 - scraper - INFO - 📊 Toplam işlenen sayfa: 3
+2025-06-05 00:10:41,247 - scraper - INFO - 📊 Toplam çekilen firma: 30
+2025-06-05 00:10:45,359 - scraper - INFO - Selenium tarayıcısı kapatıldı
+2025-06-05 00:11:53,241 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:11:53,245 - scraper - INFO - --- 1. SAYFA İŞLENİYOR ---
+2025-06-05 00:11:53,246 - scraper - INFO - Sayfa URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html
+2025-06-05 00:11:53,247 - scraper - INFO - 1. Ana liste sayfası yükleniyor...
+2025-06-05 00:11:53,248 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html
+2025-06-05 00:11:57,532 - scraper - INFO - 2. HTML parse ediliyor...
+2025-06-05 00:11:57,605 - scraper - INFO - 3. Firma linkleri aranıyor... Seçici: a[href*="exhibitor-search.detail.html"]
+2025-06-05 00:11:57,606 - scraper - INFO - Liste sayfasından firma linkleri çıkarılıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html
+2025-06-05 00:11:57,606 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.html
+2025-06-05 00:12:00,559 - scraper - INFO - 🔍 30 adet potansiyel firma linki bulundu
+2025-06-05 00:12:00,561 - scraper - INFO - ✅ Toplam 30 adet geçerli firma linki bulundu
+2025-06-05 00:12:00,562 - scraper - INFO - Bu sayfada 30 firma linki bulundu
+2025-06-05 00:12:00,562 - scraper - INFO - 3. Firma detay verileri çekiliyor... (TÜM firmalar)
+2025-06-05 00:12:00,563 - scraper - INFO - Sayfa 1, Firma 1/30: İşleniyor...
+2025-06-05 00:12:00,563 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/1888-mills-llc.html#exhibitorheadline
+2025-06-05 00:12:00,563 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/1888-mills-llc.html#exhibitorheadline
+2025-06-05 00:12:00,564 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/1888-mills-llc.html#exhibitorheadline
+2025-06-05 00:12:06,181 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:12:06,182 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:12:06,182 - scraper - INFO -    📧 0 email
+2025-06-05 00:12:06,183 - scraper - INFO -    🌐 2 web sitesi
+2025-06-05 00:12:06,183 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:12:06,183 - scraper - INFO -    📝 7 önemli metin
+2025-06-05 00:12:06,193 - scraper - INFO - ✅ Firma verisi işlendi: H4: About Heimtextil
+2025-06-05 00:12:06,193 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:12:06,195 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:12:06,198 - scraper - INFO -    🌐 Web: 2 adet
+2025-06-05 00:12:06,200 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: H4: About Heimtextil
+2025-06-05 00:12:07,212 - scraper - INFO - Sayfa 1, Firma 2/30: İşleniyor...
+2025-06-05 00:12:07,214 - scraper - INFO - Firma URL'si: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aa-canvas.html#exhibitorheadline
+2025-06-05 00:12:07,217 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aa-canvas.html#exhibitorheadline
+2025-06-05 00:12:07,222 - scraper - INFO - Sayfa içeriği alınıyor: https://heimtextil.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/aa-canvas.html#exhibitorheadline
+2025-06-05 00:28:23,108 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:28:23,109 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:28:23,110 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:28:28,874 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:28:28,875 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:28:28,875 - scraper - INFO -    📧 1 email
+2025-06-05 00:28:28,876 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:28:28,876 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:28:28,877 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:28:28,885 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:28:28,885 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:28:28,886 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:28:28,887 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:28:33,171 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:28:33,172 - scraper - INFO - --- 1. SAYFA İŞLENİYOR ---
+2025-06-05 00:28:33,173 - scraper - INFO - Sayfa URL'si: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:28:33,173 - scraper - INFO - 1. Ana liste sayfası yükleniyor...
+2025-06-05 00:28:33,174 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:28:39,758 - scraper - INFO - 2. HTML parse ediliyor...
+2025-06-05 00:28:39,890 - scraper - INFO - 3. Firma linkleri aranıyor... Seçici: a[href*="/katilimcilar/"]
+2025-06-05 00:28:39,899 - scraper - INFO - Liste sayfasından firma linkleri çıkarılıyor: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:28:39,902 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:28:43,089 - scraper - INFO - 🔍 15 adet potansiyel firma linki bulundu
+2025-06-05 00:28:43,090 - scraper - INFO - ✅ Toplam 15 adet geçerli firma linki bulundu
+2025-06-05 00:28:43,090 - scraper - INFO - Bu sayfada 15 firma linki bulundu
+2025-06-05 00:28:43,091 - scraper - INFO - 3. Firma detay verileri çekiliyor... (TÜM firmalar)
+2025-06-05 00:28:43,091 - scraper - INFO - Sayfa 1, Firma 1/15: İşleniyor...
+2025-06-05 00:28:43,092 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/3b-kumas
+2025-06-05 00:28:43,092 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/3b-kumas
+2025-06-05 00:28:43,093 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/3b-kumas
+2025-06-05 00:28:46,222 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:28:46,223 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:28:46,224 - scraper - INFO -    📧 1 email
+2025-06-05 00:28:46,224 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:28:46,225 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:28:46,225 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:28:46,231 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:28:46,232 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:28:46,253 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:28:46,257 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:28:46,257 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:28:47,258 - scraper - INFO - Sayfa 1, Firma 2/15: İşleniyor...
+2025-06-05 00:28:47,259 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/aba-tekstil
+2025-06-05 00:28:47,264 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/aba-tekstil
+2025-06-05 00:28:47,265 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/aba-tekstil
+2025-06-05 00:28:50,051 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:28:50,057 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:28:50,057 - scraper - INFO -    📧 1 email
+2025-06-05 00:28:50,057 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:28:50,058 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:28:50,065 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:28:50,067 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:28:50,072 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:28:50,073 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:28:50,074 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:28:50,075 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:28:51,075 - scraper - INFO - Sayfa 1, Firma 3/15: İşleniyor...
+2025-06-05 00:28:51,083 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/acar-tekstil
+2025-06-05 00:28:51,084 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/acar-tekstil
+2025-06-05 00:28:51,086 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/acar-tekstil
+2025-06-05 00:28:54,288 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:28:54,289 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:28:54,289 - scraper - INFO -    📧 1 email
+2025-06-05 00:28:54,289 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:28:54,290 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:28:54,290 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:28:54,292 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:28:54,292 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:28:54,297 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:28:54,302 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:28:54,303 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:28:55,306 - scraper - INFO - Sayfa 1, Firma 4/15: İşleniyor...
+2025-06-05 00:28:55,307 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/ada-denim
+2025-06-05 00:28:55,307 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/ada-denim
+2025-06-05 00:28:55,308 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/ada-denim
+2025-06-05 00:28:58,032 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:28:58,032 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:28:58,033 - scraper - INFO -    📧 1 email
+2025-06-05 00:28:58,033 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:28:58,034 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:28:58,034 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:28:58,036 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:28:58,036 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:28:58,037 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:28:58,037 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:28:58,038 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:28:59,039 - scraper - INFO - Sayfa 1, Firma 5/15: İşleniyor...
+2025-06-05 00:28:59,040 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/adana-mensucat
+2025-06-05 00:28:59,041 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/adana-mensucat
+2025-06-05 00:28:59,052 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/adana-mensucat
+2025-06-05 00:29:01,788 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:01,789 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:29:01,789 - scraper - INFO -    📧 1 email
+2025-06-05 00:29:01,790 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:01,790 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:01,790 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:29:01,792 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:01,799 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:29:01,800 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:29:01,800 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:01,801 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:02,832 - scraper - INFO - Sayfa 1, Firma 6/15: İşleniyor...
+2025-06-05 00:29:02,835 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/aden-dar
+2025-06-05 00:29:02,837 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/aden-dar
+2025-06-05 00:29:02,839 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/aden-dar
+2025-06-05 00:29:05,904 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:05,905 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:29:05,905 - scraper - INFO -    📧 1 email
+2025-06-05 00:29:05,905 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:05,906 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:05,906 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:29:05,908 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:05,912 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:29:05,913 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:29:05,913 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:05,914 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:06,915 - scraper - INFO - Sayfa 1, Firma 7/15: İşleniyor...
+2025-06-05 00:29:06,915 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/adesse-fabric-print
+2025-06-05 00:29:06,916 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/adesse-fabric-print
+2025-06-05 00:29:06,917 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/adesse-fabric-print
+2025-06-05 00:29:09,621 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:09,621 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:29:09,622 - scraper - INFO -    📧 1 email
+2025-06-05 00:29:09,622 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:09,623 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:09,623 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:29:09,630 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:09,630 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:29:09,631 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:29:09,631 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:09,631 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:10,632 - scraper - INFO - Sayfa 1, Firma 8/15: İşleniyor...
+2025-06-05 00:29:10,633 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/adil-ucar
+2025-06-05 00:29:10,633 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/adil-ucar
+2025-06-05 00:29:10,634 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/adil-ucar
+2025-06-05 00:29:13,437 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:13,438 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:29:13,438 - scraper - INFO -    📧 2 email
+2025-06-05 00:29:13,439 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:13,439 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:13,439 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:29:13,441 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:13,446 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:29:13,447 - scraper - INFO -    📧 Email: 2 adet
+2025-06-05 00:29:13,448 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:13,448 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:14,449 - scraper - INFO - Sayfa 1, Firma 9/15: İşleniyor...
+2025-06-05 00:29:14,450 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/agul-kumas
+2025-06-05 00:29:14,451 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/agul-kumas
+2025-06-05 00:29:14,451 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/agul-kumas
+2025-06-05 00:29:17,299 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:17,299 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:29:17,300 - scraper - INFO -    📧 1 email
+2025-06-05 00:29:17,300 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:17,301 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:17,301 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:29:17,303 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:17,303 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:29:17,304 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:29:17,306 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:17,306 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:18,307 - scraper - INFO - Sayfa 1, Firma 10/15: İşleniyor...
+2025-06-05 00:29:18,312 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akar-iplik
+2025-06-05 00:29:18,312 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akar-iplik
+2025-06-05 00:29:18,313 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akar-iplik
+2025-06-05 00:29:21,038 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:21,038 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:29:21,039 - scraper - INFO -    📧 1 email
+2025-06-05 00:29:21,039 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:21,040 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:21,040 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:29:21,046 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:21,047 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:29:21,047 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:29:21,048 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:21,048 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:22,049 - scraper - INFO - Sayfa 1, Firma 11/15: İşleniyor...
+2025-06-05 00:29:22,050 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akbarkod-etiket-santic
+2025-06-05 00:29:22,051 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akbarkod-etiket-santic
+2025-06-05 00:29:22,051 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akbarkod-etiket-santic
+2025-06-05 00:29:24,801 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:24,801 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:29:24,802 - scraper - INFO -    📧 1 email
+2025-06-05 00:29:24,802 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:24,802 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:24,803 - scraper - INFO -    📝 6 önemli metin
+2025-06-05 00:29:24,805 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:24,805 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:29:24,805 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:29:24,806 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:24,806 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:25,811 - scraper - INFO - Sayfa 1, Firma 12/15: İşleniyor...
+2025-06-05 00:29:25,811 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akbaslar-tekstil
+2025-06-05 00:29:25,812 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akbaslar-tekstil
+2025-06-05 00:29:25,812 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akbaslar-tekstil
+2025-06-05 00:29:28,503 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:28,504 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:29:28,504 - scraper - INFO -    📧 1 email
+2025-06-05 00:29:28,504 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:28,505 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:28,505 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:29:28,511 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:28,511 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:29:28,512 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:29:28,512 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:28,513 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:29,514 - scraper - INFO - Sayfa 1, Firma 13/15: İşleniyor...
+2025-06-05 00:29:29,515 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:29:29,515 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:29:29,516 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:29:32,217 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:32,218 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:29:32,218 - scraper - INFO -    📧 1 email
+2025-06-05 00:29:32,219 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:32,219 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:32,219 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:29:32,221 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:32,221 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:29:32,222 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:29:32,222 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:32,223 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:33,227 - scraper - INFO - Sayfa 1, Firma 14/15: İşleniyor...
+2025-06-05 00:29:33,228 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akdem-tekstil
+2025-06-05 00:29:33,228 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akdem-tekstil
+2025-06-05 00:29:33,229 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akdem-tekstil
+2025-06-05 00:29:35,921 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:35,922 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:29:35,922 - scraper - INFO -    📧 1 email
+2025-06-05 00:29:35,922 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:35,927 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:35,927 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:29:35,929 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:35,929 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:29:35,930 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:29:35,930 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:35,931 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:36,932 - scraper - INFO - Sayfa 1, Firma 15/15: İşleniyor...
+2025-06-05 00:29:36,932 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akdenim-akkumas
+2025-06-05 00:29:36,933 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akdenim-akkumas
+2025-06-05 00:29:36,933 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akdenim-akkumas
+2025-06-05 00:29:39,683 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:29:39,684 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:29:39,685 - scraper - INFO -    📧 1 email
+2025-06-05 00:29:39,685 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:29:39,686 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:29:39,686 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:29:39,688 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:29:39,688 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:29:39,689 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:29:39,693 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:29:39,693 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:29:40,694 - scraper - INFO - Sayfa 1 tamamlandı. Toplam 15 firma işlendi.
+2025-06-05 00:29:40,695 - scraper - INFO - Sayfalama seçici belirtilmedi, tek sayfa işleniyor.
+2025-06-05 00:29:40,695 - scraper - INFO - 🎉 VERİ ÇEKME İŞLEMİ TAMAMLANDI!
+2025-06-05 00:29:40,696 - scraper - INFO - 📊 Toplam işlenen sayfa: 1
+2025-06-05 00:29:40,696 - scraper - INFO - 📊 Toplam çekilen firma: 15
+2025-06-05 00:38:28,830 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:38:28,837 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:38:28,838 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:38:33,610 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:38:33,611 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:38:33,611 - scraper - INFO -    📧 1 email
+2025-06-05 00:38:33,612 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:38:33,613 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:38:33,613 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:38:33,622 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:38:33,623 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:38:33,623 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:38:33,624 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:38:38,015 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:38:38,020 - scraper - INFO - --- 1. SAYFA İŞLENİYOR ---
+2025-06-05 00:38:38,021 - scraper - INFO - Sayfa URL'si: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:38:38,022 - scraper - INFO - 1. Ana liste sayfası yükleniyor...
+2025-06-05 00:38:38,022 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:38:44,347 - scraper - INFO - 2. HTML parse ediliyor...
+2025-06-05 00:38:44,475 - scraper - INFO - 3. Firma linkleri aranıyor... Seçici: a[href*="/katilimcilar/"]
+2025-06-05 00:38:44,477 - scraper - INFO - Liste sayfasından firma linkleri çıkarılıyor: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:38:44,480 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:38:47,643 - scraper - INFO - 🔍 15 adet potansiyel firma linki bulundu
+2025-06-05 00:38:47,654 - scraper - INFO - ✅ Toplam 15 adet geçerli firma linki bulundu
+2025-06-05 00:38:47,657 - scraper - INFO - Bu sayfada 15 firma linki bulundu
+2025-06-05 00:38:47,694 - scraper - INFO - 3. Firma detay verileri çekiliyor... (TÜM firmalar)
+2025-06-05 00:38:47,726 - scraper - INFO - Sayfa 1, Firma 1/15: İşleniyor...
+2025-06-05 00:38:47,732 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/3b-kumas
+2025-06-05 00:38:47,739 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/3b-kumas
+2025-06-05 00:38:47,741 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/3b-kumas
+2025-06-05 00:38:51,043 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:38:51,043 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:38:51,043 - scraper - INFO -    📧 1 email
+2025-06-05 00:38:51,044 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:38:51,044 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:38:51,045 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:38:51,046 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:38:51,046 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:38:51,047 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:38:51,047 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:38:51,048 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:38:52,053 - scraper - INFO - Sayfa 1, Firma 2/15: İşleniyor...
+2025-06-05 00:38:52,053 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/aba-tekstil
+2025-06-05 00:38:52,054 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/aba-tekstil
+2025-06-05 00:38:52,054 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/aba-tekstil
+2025-06-05 00:38:54,251 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:38:54,252 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:38:54,252 - scraper - INFO -    📧 1 email
+2025-06-05 00:38:54,253 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:38:54,253 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:38:54,253 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:38:54,255 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:38:54,255 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:38:54,256 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:38:54,256 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:38:54,257 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:38:55,258 - scraper - INFO - Sayfa 1, Firma 3/15: İşleniyor...
+2025-06-05 00:38:55,259 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/acar-tekstil
+2025-06-05 00:38:55,260 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/acar-tekstil
+2025-06-05 00:38:55,260 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/acar-tekstil
+2025-06-05 00:38:58,138 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:38:58,144 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:38:58,145 - scraper - INFO -    📧 1 email
+2025-06-05 00:38:58,146 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:38:58,147 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:38:58,174 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:38:58,222 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:38:58,258 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:38:58,260 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:38:58,273 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:38:58,276 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:38:59,288 - scraper - INFO - Sayfa 1, Firma 4/15: İşleniyor...
+2025-06-05 00:38:59,288 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/ada-denim
+2025-06-05 00:38:59,289 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/ada-denim
+2025-06-05 00:38:59,289 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/ada-denim
+2025-06-05 00:39:02,006 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:02,006 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:39:02,007 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:02,007 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:02,008 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:02,008 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:39:02,010 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:02,010 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:39:02,011 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:02,011 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:02,012 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:03,013 - scraper - INFO - Sayfa 1, Firma 5/15: İşleniyor...
+2025-06-05 00:39:03,013 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/adana-mensucat
+2025-06-05 00:39:03,014 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/adana-mensucat
+2025-06-05 00:39:03,018 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/adana-mensucat
+2025-06-05 00:39:05,890 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:05,890 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:39:05,891 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:05,891 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:05,891 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:05,892 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:39:05,893 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:05,894 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:39:05,894 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:05,895 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:05,895 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:06,896 - scraper - INFO - Sayfa 1, Firma 6/15: İşleniyor...
+2025-06-05 00:39:06,896 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/aden-dar
+2025-06-05 00:39:06,897 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/aden-dar
+2025-06-05 00:39:06,901 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/aden-dar
+2025-06-05 00:39:09,602 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:09,602 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:39:09,603 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:09,603 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:09,604 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:09,604 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:39:09,606 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:09,606 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:39:09,607 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:09,607 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:09,608 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:10,609 - scraper - INFO - Sayfa 1, Firma 7/15: İşleniyor...
+2025-06-05 00:39:10,610 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/adesse-fabric-print
+2025-06-05 00:39:10,610 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/adesse-fabric-print
+2025-06-05 00:39:10,611 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/adesse-fabric-print
+2025-06-05 00:39:13,540 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:13,541 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:39:13,541 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:13,542 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:13,542 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:13,543 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:39:13,545 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:13,545 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:39:13,546 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:13,551 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:13,553 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:14,555 - scraper - INFO - Sayfa 1, Firma 8/15: İşleniyor...
+2025-06-05 00:39:14,555 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/adil-ucar
+2025-06-05 00:39:14,556 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/adil-ucar
+2025-06-05 00:39:14,556 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/adil-ucar
+2025-06-05 00:39:17,353 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:17,354 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:39:17,354 - scraper - INFO -    📧 2 email
+2025-06-05 00:39:17,354 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:17,355 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:17,355 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:39:17,357 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:17,357 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:39:17,358 - scraper - INFO -    📧 Email: 2 adet
+2025-06-05 00:39:17,358 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:17,359 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:18,360 - scraper - INFO - Sayfa 1, Firma 9/15: İşleniyor...
+2025-06-05 00:39:18,360 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/agul-kumas
+2025-06-05 00:39:18,361 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/agul-kumas
+2025-06-05 00:39:18,361 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/agul-kumas
+2025-06-05 00:39:21,153 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:21,153 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:39:21,153 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:21,154 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:21,154 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:21,155 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:39:21,156 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:21,157 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:39:21,157 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:21,157 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:21,158 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:22,159 - scraper - INFO - Sayfa 1, Firma 10/15: İşleniyor...
+2025-06-05 00:39:22,160 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akar-iplik
+2025-06-05 00:39:22,160 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akar-iplik
+2025-06-05 00:39:22,161 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akar-iplik
+2025-06-05 00:39:24,924 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:24,966 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:39:24,972 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:24,973 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:24,973 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:24,974 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:39:24,977 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:24,979 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:39:24,992 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:24,993 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:24,994 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:25,995 - scraper - INFO - Sayfa 1, Firma 11/15: İşleniyor...
+2025-06-05 00:39:25,995 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akbarkod-etiket-santic
+2025-06-05 00:39:26,001 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akbarkod-etiket-santic
+2025-06-05 00:39:26,002 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akbarkod-etiket-santic
+2025-06-05 00:39:28,737 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:28,737 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:39:28,738 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:28,739 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:28,739 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:28,740 - scraper - INFO -    📝 6 önemli metin
+2025-06-05 00:39:28,742 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:28,742 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:39:28,742 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:28,743 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:28,744 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:29,745 - scraper - INFO - Sayfa 1, Firma 12/15: İşleniyor...
+2025-06-05 00:39:29,745 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akbaslar-tekstil
+2025-06-05 00:39:29,751 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akbaslar-tekstil
+2025-06-05 00:39:29,752 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akbaslar-tekstil
+2025-06-05 00:39:32,534 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:32,534 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:39:32,534 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:32,535 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:32,535 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:32,536 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:39:32,537 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:32,538 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:39:32,538 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:32,539 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:32,539 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:33,540 - scraper - INFO - Sayfa 1, Firma 13/15: İşleniyor...
+2025-06-05 00:39:33,541 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:39:33,541 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:39:33,542 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:39:36,341 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:36,342 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:39:36,343 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:36,343 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:36,343 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:36,344 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:39:36,349 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:36,350 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:39:36,350 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:36,351 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:36,351 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:37,352 - scraper - INFO - Sayfa 1, Firma 14/15: İşleniyor...
+2025-06-05 00:39:37,353 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akdem-tekstil
+2025-06-05 00:39:37,354 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akdem-tekstil
+2025-06-05 00:39:37,354 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akdem-tekstil
+2025-06-05 00:39:40,216 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:40,216 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:39:40,217 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:40,218 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:40,218 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:40,218 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:39:40,220 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:40,221 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:39:40,221 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:40,222 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:40,222 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:41,223 - scraper - INFO - Sayfa 1, Firma 15/15: İşleniyor...
+2025-06-05 00:39:41,224 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akdenim-akkumas
+2025-06-05 00:39:41,225 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akdenim-akkumas
+2025-06-05 00:39:41,226 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akdenim-akkumas
+2025-06-05 00:39:44,004 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:39:44,005 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:39:44,005 - scraper - INFO -    📧 1 email
+2025-06-05 00:39:44,006 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:39:44,006 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:39:44,007 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:39:44,009 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:39:44,009 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:39:44,009 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:39:44,010 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:39:44,010 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:39:45,015 - scraper - INFO - Sayfa 1 tamamlandı. Toplam 15 firma işlendi.
+2025-06-05 00:39:45,015 - scraper - INFO - Sayfalama seçici belirtilmedi, tek sayfa işleniyor.
+2025-06-05 00:39:45,016 - scraper - INFO - 🎉 VERİ ÇEKME İŞLEMİ TAMAMLANDI!
+2025-06-05 00:39:45,017 - scraper - INFO - 📊 Toplam işlenen sayfa: 1
+2025-06-05 00:39:45,017 - scraper - INFO - 📊 Toplam çekilen firma: 15
+2025-06-05 00:44:00,922 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:44:00,923 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:44:00,924 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:44:06,083 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:06,084 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:44:06,085 - scraper - INFO -    📧 1 email
+2025-06-05 00:44:06,086 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:06,087 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:06,089 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:44:06,098 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:06,101 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:44:06,102 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:44:06,106 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:10,866 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:44:10,867 - scraper - INFO - --- 1. SAYFA İŞLENİYOR ---
+2025-06-05 00:44:10,867 - scraper - INFO - Sayfa URL'si: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:44:10,868 - scraper - INFO - 1. Ana liste sayfası yükleniyor...
+2025-06-05 00:44:10,868 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:44:16,701 - scraper - INFO - 2. HTML parse ediliyor...
+2025-06-05 00:44:16,766 - scraper - INFO - 3. Firma linkleri aranıyor... Seçici: a[href*="/katilimcilar/"]
+2025-06-05 00:44:16,767 - scraper - INFO - Liste sayfasından firma linkleri çıkarılıyor: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:44:16,767 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar
+2025-06-05 00:44:19,564 - scraper - INFO - 🔍 15 adet potansiyel firma linki bulundu
+2025-06-05 00:44:19,565 - scraper - INFO - ✅ Toplam 15 adet geçerli firma linki bulundu
+2025-06-05 00:44:19,565 - scraper - INFO - Bu sayfada 15 firma linki bulundu
+2025-06-05 00:44:19,565 - scraper - INFO - 3. Firma detay verileri çekiliyor... (TÜM firmalar)
+2025-06-05 00:44:19,566 - scraper - INFO - Sayfa 1, Firma 1/15: İşleniyor...
+2025-06-05 00:44:19,566 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/3b-kumas
+2025-06-05 00:44:19,567 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/3b-kumas
+2025-06-05 00:44:19,567 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/3b-kumas
+2025-06-05 00:44:22,506 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:22,506 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:44:22,511 - scraper - INFO -    📧 1 email
+2025-06-05 00:44:22,512 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:22,512 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:22,512 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:44:22,514 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:22,514 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:44:22,515 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:44:22,515 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:22,516 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:44:23,517 - scraper - INFO - Sayfa 1, Firma 2/15: İşleniyor...
+2025-06-05 00:44:23,519 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/aba-tekstil
+2025-06-05 00:44:23,520 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/aba-tekstil
+2025-06-05 00:44:23,521 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/aba-tekstil
+2025-06-05 00:44:26,536 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:26,537 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:44:26,538 - scraper - INFO -    📧 1 email
+2025-06-05 00:44:26,538 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:26,539 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:26,540 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:44:26,548 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:26,548 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:44:26,549 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:44:26,549 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:26,550 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:44:27,553 - scraper - INFO - Sayfa 1, Firma 3/15: İşleniyor...
+2025-06-05 00:44:27,554 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/acar-tekstil
+2025-06-05 00:44:27,555 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/acar-tekstil
+2025-06-05 00:44:27,556 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/acar-tekstil
+2025-06-05 00:44:30,632 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:30,633 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:44:30,633 - scraper - INFO -    📧 1 email
+2025-06-05 00:44:30,634 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:30,634 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:30,635 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:44:30,636 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:30,637 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:44:30,637 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:44:30,637 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:30,638 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:44:31,639 - scraper - INFO - Sayfa 1, Firma 4/15: İşleniyor...
+2025-06-05 00:44:31,639 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/ada-denim
+2025-06-05 00:44:31,644 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/ada-denim
+2025-06-05 00:44:31,645 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/ada-denim
+2025-06-05 00:44:34,482 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:34,482 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:44:34,483 - scraper - INFO -    📧 1 email
+2025-06-05 00:44:34,483 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:34,484 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:34,484 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:44:34,486 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:34,487 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:44:34,487 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:44:34,487 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:34,488 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:44:35,489 - scraper - INFO - Sayfa 1, Firma 5/15: İşleniyor...
+2025-06-05 00:44:35,493 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/adana-mensucat
+2025-06-05 00:44:35,494 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/adana-mensucat
+2025-06-05 00:44:35,494 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/adana-mensucat
+2025-06-05 00:44:38,121 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:38,121 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:44:38,122 - scraper - INFO -    📧 1 email
+2025-06-05 00:44:38,122 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:38,127 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:38,127 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:44:38,129 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:38,129 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:44:38,130 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:44:38,130 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:38,131 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:44:39,131 - scraper - INFO - Sayfa 1, Firma 6/15: İşleniyor...
+2025-06-05 00:44:39,132 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/aden-dar
+2025-06-05 00:44:39,132 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/aden-dar
+2025-06-05 00:44:39,133 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/aden-dar
+2025-06-05 00:44:41,798 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:41,799 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:44:41,799 - scraper - INFO -    📧 1 email
+2025-06-05 00:44:41,800 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:41,800 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:41,801 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:44:41,802 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:41,803 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:44:41,803 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:44:41,804 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:41,804 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:44:42,805 - scraper - INFO - Sayfa 1, Firma 7/15: İşleniyor...
+2025-06-05 00:44:42,809 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/adesse-fabric-print
+2025-06-05 00:44:42,810 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/adesse-fabric-print
+2025-06-05 00:44:42,811 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/adesse-fabric-print
+2025-06-05 00:44:45,582 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:45,582 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:44:45,582 - scraper - INFO -    📧 1 email
+2025-06-05 00:44:45,583 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:45,583 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:45,584 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:44:45,586 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:45,586 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:44:45,587 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:44:45,587 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:45,588 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:44:46,603 - scraper - INFO - Sayfa 1, Firma 8/15: İşleniyor...
+2025-06-05 00:44:46,610 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/adil-ucar
+2025-06-05 00:44:46,648 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/adil-ucar
+2025-06-05 00:44:46,695 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/adil-ucar
+2025-06-05 00:44:49,600 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:49,601 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:44:49,601 - scraper - INFO -    📧 2 email
+2025-06-05 00:44:49,601 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:49,602 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:49,602 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:44:49,604 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:49,605 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:44:49,609 - scraper - INFO -    📧 Email: 2 adet
+2025-06-05 00:44:49,609 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:49,610 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:44:50,611 - scraper - INFO - Sayfa 1, Firma 9/15: İşleniyor...
+2025-06-05 00:44:50,611 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/agul-kumas
+2025-06-05 00:44:50,612 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/agul-kumas
+2025-06-05 00:44:50,613 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/agul-kumas
+2025-06-05 00:44:53,338 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:53,342 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:44:53,342 - scraper - INFO -    📧 1 email
+2025-06-05 00:44:53,343 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:53,343 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:53,344 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:44:53,345 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:53,345 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:44:53,346 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:44:53,346 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:53,347 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:44:54,348 - scraper - INFO - Sayfa 1, Firma 10/15: İşleniyor...
+2025-06-05 00:44:54,348 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akar-iplik
+2025-06-05 00:44:54,349 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akar-iplik
+2025-06-05 00:44:54,350 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akar-iplik
+2025-06-05 00:44:57,340 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:44:57,342 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:44:57,342 - scraper - INFO -    📧 1 email
+2025-06-05 00:44:57,343 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:44:57,343 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:44:57,344 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:44:57,345 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:44:57,346 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:44:57,346 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:44:57,347 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:44:57,347 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:44:58,348 - scraper - INFO - Sayfa 1, Firma 11/15: İşleniyor...
+2025-06-05 00:44:58,349 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akbarkod-etiket-santic
+2025-06-05 00:44:58,349 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akbarkod-etiket-santic
+2025-06-05 00:44:58,350 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akbarkod-etiket-santic
+2025-06-05 00:45:00,996 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:45:00,996 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:45:00,997 - scraper - INFO -    📧 1 email
+2025-06-05 00:45:00,997 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:45:00,998 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:45:00,998 - scraper - INFO -    📝 6 önemli metin
+2025-06-05 00:45:01,000 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:45:01,000 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:45:01,000 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:45:01,001 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:45:01,002 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:45:02,002 - scraper - INFO - Sayfa 1, Firma 12/15: İşleniyor...
+2025-06-05 00:45:02,003 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akbaslar-tekstil
+2025-06-05 00:45:02,004 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akbaslar-tekstil
+2025-06-05 00:45:02,010 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akbaslar-tekstil
+2025-06-05 00:45:04,681 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:45:04,681 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:45:04,682 - scraper - INFO -    📧 1 email
+2025-06-05 00:45:04,682 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:45:04,683 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:45:04,683 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:45:04,685 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:45:04,686 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:45:04,687 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:45:04,692 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:45:04,692 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:45:05,693 - scraper - INFO - Sayfa 1, Firma 13/15: İşleniyor...
+2025-06-05 00:45:05,694 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:45:05,695 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:45:05,696 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akcam-orme-kumas
+2025-06-05 00:45:08,552 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:45:08,553 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:45:08,553 - scraper - INFO -    📧 1 email
+2025-06-05 00:45:08,557 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:45:08,558 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:45:08,558 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:45:08,560 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:45:08,560 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:45:08,561 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:45:08,561 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:45:08,562 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:45:09,562 - scraper - INFO - Sayfa 1, Firma 14/15: İşleniyor...
+2025-06-05 00:45:09,563 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akdem-tekstil
+2025-06-05 00:45:09,564 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akdem-tekstil
+2025-06-05 00:45:09,564 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akdem-tekstil
+2025-06-05 00:45:12,360 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:45:12,361 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:45:12,361 - scraper - INFO -    📧 1 email
+2025-06-05 00:45:12,362 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:45:12,362 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:45:12,362 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:45:12,364 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:45:12,364 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:45:12,364 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:45:12,365 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:45:12,365 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:45:13,366 - scraper - INFO - Sayfa 1, Firma 15/15: İşleniyor...
+2025-06-05 00:45:13,367 - scraper - INFO - Firma URL'si: https://www.texhibitionist.com/katilimcilar/akdenim-akkumas
+2025-06-05 00:45:13,367 - scraper - INFO - 🔍 Firma detay sayfası analiz ediliyor: https://www.texhibitionist.com/katilimcilar/akdenim-akkumas
+2025-06-05 00:45:13,368 - scraper - INFO - Sayfa içeriği alınıyor: https://www.texhibitionist.com/katilimcilar/akdenim-akkumas
+2025-06-05 00:45:16,269 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:45:16,269 - scraper - INFO -    📞 1 telefon
+2025-06-05 00:45:16,269 - scraper - INFO -    📧 1 email
+2025-06-05 00:45:16,273 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:45:16,274 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:45:16,274 - scraper - INFO -    📝 4 önemli metin
+2025-06-05 00:45:16,276 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:45:16,277 - scraper - INFO -    📞 Telefon: 1 adet
+2025-06-05 00:45:16,277 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:45:16,277 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:45:16,278 - scraper - INFO - ✅ Firma verisi başarıyla çekildi: Katılımcılar
+2025-06-05 00:45:17,279 - scraper - INFO - Sayfa 1 tamamlandı. Toplam 15 firma işlendi.
+2025-06-05 00:45:17,279 - scraper - INFO - Sayfalama seçici belirtilmedi, tek sayfa işleniyor.
+2025-06-05 00:45:17,280 - scraper - INFO - 🎉 VERİ ÇEKME İŞLEMİ TAMAMLANDI!
+2025-06-05 00:45:17,281 - scraper - INFO - 📊 Toplam işlenen sayfa: 1
+2025-06-05 00:45:17,281 - scraper - INFO - 📊 Toplam çekilen firma: 15
+2025-06-05 00:48:16,401 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:52:09,816 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:52:12,646 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:52:12,646 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:52:12,647 - scraper - INFO -    📧 1 email
+2025-06-05 00:52:12,647 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:52:12,648 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:52:12,649 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:52:12,659 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:52:12,662 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:52:12,663 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:52:12,663 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:53:19,600 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:53:22,475 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:53:22,475 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:53:22,476 - scraper - INFO -    📧 1 email
+2025-06-05 00:53:22,476 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:53:22,477 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:53:22,477 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:53:22,480 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:53:22,481 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:53:22,481 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:53:22,482 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:54:00,132 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 00:54:03,828 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:54:03,829 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:54:03,829 - scraper - INFO -    📧 1 email
+2025-06-05 00:54:03,830 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 00:54:03,832 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:54:03,835 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 00:54:03,838 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 00:54:03,839 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:54:03,839 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 00:54:03,840 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 00:54:04,073 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:54:04,073 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:54:04,073 - scraper - INFO -    📧 0 email
+2025-06-05 00:54:04,074 - scraper - INFO -    🌐 0 web sitesi
+2025-06-05 00:54:04,075 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:54:04,075 - scraper - INFO -    📝 0 önemli metin
+2025-06-05 00:54:04,077 - scraper - INFO - ✅ Firma verisi işlendi: Server Error
+2025-06-05 00:54:04,077 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:54:04,078 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:54:04,078 - scraper - INFO -    🌐 Web: 0 adet
+2025-06-05 00:54:04,220 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 00:54:04,221 - scraper - INFO -    📞 0 telefon
+2025-06-05 00:54:04,221 - scraper - INFO -    📧 0 email
+2025-06-05 00:54:04,221 - scraper - INFO -    🌐 0 web sitesi
+2025-06-05 00:54:04,222 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 00:54:04,222 - scraper - INFO -    📝 0 önemli metin
+2025-06-05 00:54:04,223 - scraper - INFO - ✅ Firma verisi işlendi: Server Error
+2025-06-05 00:54:04,224 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 00:54:04,225 - scraper - INFO -    📧 Email: 0 adet
+2025-06-05 00:54:04,225 - scraper - INFO -    🌐 Web: 0 adet
+2025-06-05 00:54:52,495 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 01:01:12,242 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 01:01:16,008 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 01:01:16,009 - scraper - INFO -    📞 0 telefon
+2025-06-05 01:01:16,009 - scraper - INFO -    📧 1 email
+2025-06-05 01:01:16,010 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 01:01:16,010 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 01:01:16,011 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 01:01:16,015 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 01:01:16,018 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 01:01:16,019 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 01:01:16,020 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 01:04:21,250 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 01:04:24,526 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 01:04:24,527 - scraper - INFO -    📞 0 telefon
+2025-06-05 01:04:24,527 - scraper - INFO -    📧 1 email
+2025-06-05 01:04:24,528 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 01:04:24,528 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 01:04:24,529 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 01:04:24,532 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 01:04:24,533 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 01:04:24,533 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 01:04:24,534 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 01:07:34,177 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 01:07:37,862 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 01:07:37,863 - scraper - INFO -    📞 0 telefon
+2025-06-05 01:07:37,863 - scraper - INFO -    📧 0 email
+2025-06-05 01:07:37,864 - scraper - INFO -    🌐 0 web sitesi
+2025-06-05 01:07:37,864 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 01:07:37,865 - scraper - INFO -    📝 0 önemli metin
+2025-06-05 01:07:37,873 - scraper - ERROR - Universal veri işlenirken hata: cannot access local variable 're' where it is not associated with a value
+2025-06-05 11:59:19,012 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 11:59:22,169 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 11:59:22,170 - scraper - INFO -    📞 0 telefon
+2025-06-05 11:59:22,170 - scraper - INFO -    📧 1 email
+2025-06-05 11:59:22,171 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 11:59:22,173 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 11:59:22,175 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 11:59:22,181 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 11:59:22,181 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 11:59:22,182 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 11:59:22,183 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 12:03:37,044 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 12:03:41,157 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 12:03:41,158 - scraper - INFO -    📞 0 telefon
+2025-06-05 12:03:41,158 - scraper - INFO -    📧 1 email
+2025-06-05 12:03:41,159 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 12:03:41,159 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 12:03:41,160 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 12:03:41,165 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 12:03:41,165 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 12:03:41,166 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 12:03:41,167 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 12:05:03,183 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 12:05:05,976 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 12:05:05,990 - scraper - INFO -    📞 0 telefon
+2025-06-05 12:05:05,991 - scraper - INFO -    📧 1 email
+2025-06-05 12:05:05,991 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 12:05:05,992 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 12:05:05,993 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 12:05:06,012 - scraper - INFO - ✅ Firma verisi işlendi: Katılımcılar
+2025-06-05 12:05:06,018 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 12:05:06,019 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 12:05:06,020 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 12:06:34,313 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 12:06:36,941 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 12:06:36,944 - scraper - INFO -    📞 0 telefon
+2025-06-05 12:06:36,944 - scraper - INFO -    📧 1 email
+2025-06-05 12:06:36,945 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 12:06:36,946 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 12:06:36,946 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 12:06:36,953 - scraper - INFO - ✅ Firma verisi işlendi: SAN VE TİC A.Ş
+2025-06-05 12:06:36,962 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 12:06:36,964 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 12:06:36,965 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 22:10:22,259 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 22:10:22,340 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 22:10:26,199 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 22:10:26,211 - scraper - INFO -    📞 0 telefon
+2025-06-05 22:10:26,213 - scraper - INFO -    📧 1 email
+2025-06-05 22:10:26,214 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 22:10:26,215 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 22:10:26,216 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 22:10:26,253 - scraper - INFO - ✅ Firma verisi işlendi: SAN VE TİC A.Ş
+2025-06-05 22:10:26,336 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 22:10:26,363 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 22:10:26,386 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 22:10:26,503 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 22:10:26,528 - scraper - INFO -    📞 0 telefon
+2025-06-05 22:10:26,569 - scraper - INFO -    📧 1 email
+2025-06-05 22:10:26,579 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 22:10:26,582 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 22:10:26,584 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 22:10:26,600 - scraper - INFO - ✅ Firma verisi işlendi: SAN VE TİC A.Ş
+2025-06-05 22:10:26,601 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 22:10:26,603 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 22:10:26,611 - scraper - INFO -    🌐 Web: 4 adet
+2025-06-05 22:14:59,797 - scraper - INFO - Selenium tarayıcısı başlatıldı
+2025-06-05 22:15:02,886 - scraper - INFO - 🎯 Otomatik veri çıkarma tamamlandı:
+2025-06-05 22:15:02,887 - scraper - INFO -    📞 0 telefon
+2025-06-05 22:15:02,888 - scraper - INFO -    📧 1 email
+2025-06-05 22:15:02,888 - scraper - INFO -    🌐 4 web sitesi
+2025-06-05 22:15:02,889 - scraper - INFO -    📍 0 adres bilgisi
+2025-06-05 22:15:02,889 - scraper - INFO -    📝 3 önemli metin
+2025-06-05 22:15:02,893 - scraper - INFO - ✅ Firma verisi işlendi: AKÇAM ÖRME KUMAŞ AKÇAM ÖRME KUMAŞ SAN. VE TİC A.Ş.
+2025-06-05 22:15:02,893 - scraper - INFO -    📞 Telefon: 0 adet
+2025-06-05 22:15:02,894 - scraper - INFO -    📧 Email: 1 adet
+2025-06-05 22:15:02,894 - scraper - INFO -    🌐 Web: 4 adet
