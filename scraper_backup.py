@@ -1,24 +1,28 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Hometex.com.tr Final Scraper - Başarılı Test Edilmiş Versiyon
-Ana sayfadaki firma isimlerine tıklayarak detay bilgilerini çeker
+Texworld NYC Summer 2024 Infinite Scroll Scraper
+ExpoPlattform tabanlı fuar sitesi için infinite scroll sistemi ile scraper
+
+HEDEF SİTE: https://texworldnycsummer2024-messefrankfurt.expoplatform.com/
+SİSTEM: Infinite scroll (scroll down ile yeni firmalar yüklenir)
+VERİ: Firma Adı, Ülke, Website
 
 ÖZELLİKLER:
-- 1000 firmaya kadar çekebilir
-- Hız optimizasyonları uygulanmış (WebDriverWait: 8s, sleep: 1s)
-- Crash koruması (Ctrl+C ve exception handling)
-- Otomatik Excel kaydetme
-- Duplicate firma kontrolü
-- Türkçe kolon başlıkları
+- Infinite scroll sistemi
+- Multi-tab navigation (ana sayfa korunur)
+- Load More butonu otomatik tıklama
+- 700+ firmaya kadar çekebilir
+- Smart scroll detection
 
-SON TEST: 2025-06-07 - Başarılı ✅
-PERFORMANS: ~3 saniye/firma, tahmini 50 dakika/1000 firma
+OLUŞTURULMA: 2025-06-07
+DURUM: Test edilmeyi bekliyor 🧪
 """
 
 import pandas as pd
 import re
 import time
+import random
 from datetime import datetime
 import logging
 from selenium import webdriver
@@ -31,11 +35,12 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-class HometexClickScraper:
+class TexworldScraper:
     def __init__(self):
-        self.base_url = "https://hometex.com.tr/2025-katilimci-listesi"
+        self.base_url = "https://texworldnycsummer2024-messefrankfurt.expoplatform.com/newfront/marketplace/exhibitors"
         self.companies = []
         self.processed_companies = set()
+        self.processed_urls = set()
         
     def setup_selenium_driver(self):
         """Selenium WebDriver kurulumu"""
@@ -53,250 +58,300 @@ class HometexClickScraper:
         driver = webdriver.Chrome(options=options)
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
         return driver
-        
+    
+    def wait_for_page_load(self, driver):
+        """JavaScript yüklenene kadar bekle"""
+        try:
+            WebDriverWait(driver, 15).until(
+                lambda d: d.execute_script("return document.readyState") == "complete"
+            )
+            time.sleep(random.uniform(1, 2))  # Daha hızlı
+        except TimeoutException:
+            logger.warning("Sayfa yükleme timeout")
+        except Exception as e:
+            logger.warning(f"Sayfa yükleme hatası: {str(e)}")
+    
     def extract_company_details(self, driver):
-        """Mevcut sayfadan şirket detaylarını çıkar"""
+        """JSON data'dan şirket detaylarını çıkar - YENİ JSON YAKLAŞIMI"""
         try:
             WebDriverWait(driver, 8).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-            time.sleep(1)
+            time.sleep(2)
             
             company_info = {
                 'Firma Adı': '',
-                'Telefon': '',
-                'E-posta': '',
+                'Ülke': '',
                 'Website': '',
-                'Fax': '',
-                'Adres': '',
-                'Ürün Grubu': '',
-                'Salon/Stand': '',
-                'Kaynak': 'Hometex.com.tr',
+                'Kaynak': 'TexworldNYC2024',
                 'Detay URL': driver.current_url,
                 'Çekilme Tarihi': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
             
-            # 1. Sayfa başlığından firma adını al
+            # Sayfa kaynağını al
+            page_source = driver.page_source
+            logger.debug(f"Sayfa kaynağı uzunluğu: {len(page_source)} karakter")
+            
+            # JSON pattern'leri ile veri çıkar
             try:
-                title = driver.title
-                if title and "Hometex" not in title and "Katılımcılar" not in title:
-                    company_info['Firma Adı'] = title.strip()
-                else:
-                    h1_elements = driver.find_elements(By.TAG_NAME, "h1")
-                    for h1 in h1_elements:
-                        text = h1.text.strip()
-                        if text and len(text) > 3 and "Katılımcılar" not in text:
-                            company_info['Firma Adı'] = text
+                # 1. Firma Adı için pattern'ler
+                name_patterns = [
+                    r'"name":\s*"([^"]+)"',
+                    r'"companyName":\s*"([^"]+)"',
+                    r'"exhibitorName":\s*"([^"]+)"',
+                    r'"title":\s*"([^"]+)"'
+                ]
+                
+                for pattern in name_patterns:
+                    match = re.search(pattern, page_source, re.IGNORECASE)
+                    if match:
+                        name = match.group(1).strip()
+                        # Texworld ile ilgili genel metinleri filtrele
+                        if (name and len(name) > 2 and len(name) < 150 and 
+                            'texworld' not in name.lower() and 
+                            'exhibitor' not in name.lower() and
+                            'profile' not in name.lower()):
+                            company_info['Firma Adı'] = name
+                            logger.info(f"JSON'dan firma adı bulundu: {name}")
                             break
-            except:
-                pass
-              # 2. Sayfa metninden iletişim bilgilerini çıkar
-            try:
-                page_text = driver.find_element(By.TAG_NAME, "body").text
-                
-                # "Firma Detayları" bölümünden telefon bilgisini çıkar
-                excluded_phones = ['+90 549 458 01 30', '0549 458 01 30', '549 458 01 30', '+90 549 458 01 77', '0549 458 01 77', '549 458 01 77']
-                
-                # "Firma Detayları" başlığını bul ve ondan sonraki "Telefon" kısmını ara
-                firma_detaylari_pattern = r'Firma\s+Detayları.*?(?=Firma\s+Adres|$)'
-                firma_detaylari_match = re.search(firma_detaylari_pattern, page_text, re.DOTALL | re.IGNORECASE)
-                
-                if firma_detaylari_match:
-                    firma_detaylari_text = firma_detaylari_match.group(0)
-                    logger.info(f"Firma Detayları bölümü bulundu: {firma_detaylari_text[:100]}...")
-                      # "Telefon" kelimesinden sonraki satırdaki numarayı bul
-                    telefon_pattern = r'Telefon\s*\n\s*([^\n]+)'
-                    telefon_match = re.search(telefon_pattern, firma_detaylari_text, re.IGNORECASE)
-                    
-                    if telefon_match:
-                        telefon = telefon_match.group(1).strip()
-                        if telefon not in excluded_phones and len(re.sub(r'[^\d]', '', telefon)) >= 10:
-                            company_info['Telefon'] = telefon
-                            logger.info(f"Firma Detayları'ndan telefon bulundu: {telefon}")                # "Firma Detayları" bölümünden e-posta bilgisini çıkar
-                if firma_detaylari_match:
-                    # "E-mail" kelimesinden sonraki satırdaki e-posta adresini bul
-                    email_pattern = r'E-mail\s*\n\s*([^\n]+)'
-                    email_match = re.search(email_pattern, firma_detaylari_text, re.IGNORECASE)
-                    
-                    if email_match and 'hometex' not in email_match.group(1).lower():
-                        company_info['E-posta'] = email_match.group(1).strip()
-                        logger.info(f"Firma Detayları'ndan e-posta bulundu: {email_match.group(1)}")
-  # "Firma Detayları" bölümünden website bilgisini çıkar
-                if firma_detaylari_match:
-                    # "Web" kelimesinden sonraki satırdaki web adresini bul
-                    website_pattern = r'Web\s*\n\s*([^\n]+)'
-                    website_match = re.search(website_pattern, firma_detaylari_text, re.IGNORECASE)
-                    
-                    if website_match:
-                        website = website_match.group(1).strip()
-                        if 'hometex' not in website.lower() and 'asp.net' not in website.lower():
-                            if not website.startswith('http'):
-                                website = 'https://' + website
-                            company_info['Website'] = website
-                            logger.info(f"Firma Detayları'ndan website bulundu: {website}")                # "Firma Adres Detayları" bölümünden şehir bilgisini çıkar
-                firma_adres_pattern = r'Firma\s+Adres\s+Detayları.*?(?=Firma\s+Detayları|$)'
-                firma_adres_match = re.search(firma_adres_pattern, page_text, re.DOTALL | re.IGNORECASE)
-                
-                if firma_adres_match:
-                    firma_adres_text = firma_adres_match.group(0)
-                    logger.info(f"Firma Adres Detayları bölümü bulundu: {firma_adres_text[:100]}...")
-                      # / / arasındaki şehir ismini bul (örn: / Bursa /, / Istanbul /, / Denizli /)
-                    sehir_pattern = r'/\s*([A-ZÖÜĞŞÇIa-zöüğşçı][A-ZÖÜĞŞÇIa-zöüğşçı\s]*[A-ZÖÜĞŞÇIa-zöüğşçı])\s*/'
-                    sehir_matches = re.findall(sehir_pattern, firma_adres_text)
-                    
-                    if sehir_matches:
-                        # Türkiye'yi hariç tut, şehir ismini al
-                        sehirler = [s.strip() for s in sehir_matches if s.lower().replace(' ', '') not in ['turkey', 'türkiye']]
-                        if sehirler:
-                            company_info['Adres'] = sehirler[0]  # İlk şehir ismini al
-                            logger.info(f"Şehir bilgisi bulundu: {sehirler[0]}")                  # "Ürün Grupları" başlığının altındaki listeyi al
-                urun_gruplari_pattern = r'Ürün\s+Grupları\s*:?\s*(.*?)(?=Bu\s+fuar|İletişim\s+Bilgileri|TOBB|Türkiye\s+Odalar|$)'
-                urun_gruplari_match = re.search(urun_gruplari_pattern, page_text, re.DOTALL | re.IGNORECASE)
-                
-                if urun_gruplari_match:
-                    urun_gruplari_text = urun_gruplari_match.group(1).strip()
-                    logger.info(f"Ürün Grupları bölümü bulundu: {urun_gruplari_text[:100]}...")
-                    
-                    # Satır satır ayır ve temizle
-                    urun_lines = []
-                    for line in urun_gruplari_text.split('\n'):
-                        line = line.strip()
-                        # Sadece gerçek ürün gruplarını al, footer bilgilerini hariç tut
-                        if (line and len(line) > 1 and 
-                            not line.startswith('http') and 
-                            not line.startswith('+90') and
-                            not line.startswith('0') and
-                            'fuar' not in line.lower() and
-                            'kanun' not in line.lower() and
-                            'tobb' not in line.lower() and
-                            'iletişim' not in line.lower() and
-                            'bilgileri' not in line.lower() and
-                            len(line) < 50):  # Çok uzun satırları hariç tut
-                            urun_lines.append(line)
-                    
-                    if urun_lines:
-                        company_info['Ürün Grubu'] = ' | '.join(urun_lines[:10])  # Maksimum 10 ürün grubu
-                        logger.info(f"Ürün Grupları bulundu: {company_info['Ürün Grubu']}")
-  
-                
+                            
             except Exception as e:
-                logger.debug(f"Sayfa metni çıkarma hatası: {str(e)}")
+                logger.debug(f"JSON firma adı çıkarma hatası: {str(e)}")
+            
+            # 2. Ülke için pattern'ler
+            try:
+                country_patterns = [
+                    r'"country":\s*"([^"]+)"',
+                    r'"location":\s*"([^"]+)"',
+                    r'"address".*?"country":\s*"([^"]+)"',
+                    r'"countryName":\s*"([^"]+)"'
+                ]
+                
+                for pattern in country_patterns:
+                    match = re.search(pattern, page_source, re.IGNORECASE)
+                    if match:
+                        country = match.group(1).strip()
+                        if country and len(country) > 2 and len(country) < 50:
+                            company_info['Ülke'] = country
+                            logger.info(f"JSON'dan ülke bulundu: {country}")
+                            break
+                            
+            except Exception as e:
+                logger.debug(f"JSON ülke çıkarma hatası: {str(e)}")
+            
+            # 3. Website için pattern'ler
+            try:
+                website_patterns = [
+                    r'"website":\s*"([^"]+)"',
+                    r'"url":\s*"([^"]+)"',
+                    r'"webUrl":\s*"([^"]+)"',
+                    r'"homepage":\s*"([^"]+)"'
+                ]
+                
+                for pattern in website_patterns:
+                    match = re.search(pattern, page_source, re.IGNORECASE)
+                    if match:
+                        website = match.group(1).strip()
+                        # Texworld ile ilgili URL'leri filtrele
+                        if (website and len(website) > 5 and 
+                            'texworld' not in website.lower() and 
+                            'messefrankfurt' not in website.lower() and
+                            'expoplatform' not in website.lower()):
+                            
+                            # HTTP protokolü ekle
+                            if not website.startswith(('http://', 'https://')):
+                                website = 'https://' + website
+                                
+                            company_info['Website'] = website
+                            logger.info(f"JSON'dan website bulundu: {website}")
+                            break
+                            
+            except Exception as e:
+                logger.debug(f"JSON website çıkarma hatası: {str(e)}")
+            
+            # Fallback: JSON bulunamazsa DOM'dan dene
+            if not company_info['Firma Adı']:
+                try:
+                    title = driver.title
+                    if title and "Texworld" not in title and "Exhibitor" not in title:
+                        company_info['Firma Adı'] = title.strip()
+                        logger.info(f"Fallback: Title'dan firma adı: {title}")
+                except:
+                    pass
+            
+            # Sonuç logla
+            logger.info(f"✅ Çıkarılan veri - Firma: '{company_info['Firma Adı']}', Ülke: '{company_info['Ülke']}', Web: '{company_info['Website']}'")
             
             return company_info
             
         except Exception as e:
-            logger.error(f"Detay çıkarma hatası: {str(e)}")
+            logger.error(f"JSON detay çıkarma hatası: {str(e)}")
             return None
 
-    def find_and_click_companies(self, driver, max_companies=10):
-        """Ana sayfadaki şirket isimlerini bul ve tıkla"""
+    def scrape_with_infinite_scroll(self, driver, max_companies=700):
+        """Infinite scroll ile firmaları çek"""
         try:
+            # Ana sayfa
             logger.info(f"Ana sayfa açılıyor: {self.base_url}")
             driver.get(self.base_url)
+            self.wait_for_page_load(driver)
             
-            WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-            time.sleep(3)
-            
-            # Tıklanabilir şirket linklerini bul
             processed_count = 0
-            attempts = 0
-            max_attempts = max_companies * 2  # Daha fazla deneme
+            last_company_count = 0
+            scroll_attempts = 0
+            max_scroll_attempts = 100  # Maksimum scroll sayısı
+            no_new_companies_count = 0  # Yeni firma gelmeme sayacı
             
-            while processed_count < max_companies and attempts < max_attempts:
+            while processed_count < max_companies and scroll_attempts < max_scroll_attempts:
                 try:
-                    # Ana sayfaya dön
-                    if driver.current_url != self.base_url:
-                        driver.get(self.base_url)
-                        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-                        time.sleep(3)
+                    # Mevcut firma linklerini topla
+                    company_links = []
                     
-                    # Tıklanabilir linkleri bul
-                    links = driver.find_elements(By.TAG_NAME, "a")
+                    # Farklı selector'lar dene
+                    link_selectors = [
+                        'a[href*="/exhibitor/"]',
+                        'a[href*="/newfront/exhibitor/"]', 
+                        '.exhibitor-card a',
+                        '.company-card a',
+                        '[class*="exhibitor"] a',
+                        '[class*="company"] a'
+                    ]
                     
-                    for link in links:
+                    for selector in link_selectors:
                         try:
-                            if processed_count >= max_companies:
+                            links = driver.find_elements(By.CSS_SELECTOR, selector)
+                            for link in links:
+                                href = link.get_attribute("href")
+                                if (href and '/exhibitor/' in href and 
+                                    href not in self.processed_urls):
+                                    company_links.append(href)
+                                    self.processed_urls.add(href)
+                            if company_links:
                                 break
-                            
-                            text = link.text.strip()
-                            href = link.get_attribute("href") or ""
-                            
-                            # Şirket benzeri linkler
-                            if (text and len(text) > 5 and 
-                                not any(skip in text.lower() for skip in 
-                                       ['hometex', 'katılımcı', 'ziyaretçi', 'etkinlik', 'medya', 
-                                        'iletişim', 'bilet', 'ana sayfa', 'menü']) and
-                                text not in self.processed_companies):
-                                
-                                logger.info(f"İşleniyor ({processed_count+1}/{max_companies}): {text}")
-                                
-                                try:
-                                    # Elemente tıkla
-                                    driver.execute_script("arguments[0].scrollIntoView(true);", link)
-                                    time.sleep(1)
-                                    
-                                    # JavaScript ile tıkla
-                                    driver.execute_script("arguments[0].click();", link)
-                                    time.sleep(3)
-                                    
-                                    # Eğer aynı sayfadaysak, href kullan
-                                    if driver.current_url == self.base_url and href and href != self.base_url:
-                                        driver.get(href)
-                                        time.sleep(3)
-                                    
-                                    # Şirket detaylarını çıkar
-                                    company_data = self.extract_company_details(driver)
-                                    
-                                    if company_data:
-                                        if not company_data['Firma Adı']:
-                                            company_data['Firma Adı'] = text
-                                        
-                                        self.companies.append(company_data)
-                                        self.processed_companies.add(text)
-                                        processed_count += 1
-                                        
-                                        logger.info(f"✅ Başarılı: {company_data['Firma Adı']}")
-                                        logger.info(f"   Tel: {company_data['Telefon']}")
-                                        logger.info(f"   Email: {company_data['E-posta']}")
-                                        logger.info(f"   Web: {company_data['Website']}")
-                                    else:
-                                        logger.warning(f"❌ Veri çıkarılamadı: {text}")
-                                    
-                                    time.sleep(2)
-                                    break  # Bir şirket işlendikten sonra döngüyü yeniden başlat
-                                    
-                                except (StaleElementReferenceException, ElementClickInterceptedException) as e:
-                                    logger.debug(f"Element hatası {text}: {str(e)}")
-                                    break  # Ana döngüyü yeniden başlat
-                                    
-                        except Exception as e:
-                            logger.debug(f"Link işleme hatası: {str(e)}")
+                        except:
                             continue
                     
-                    attempts += 1
+                    # Eğer selector bulamazsa, tüm linklerden exhibitor olanları al
+                    if not company_links:
+                        all_links = driver.find_elements(By.TAG_NAME, "a")
+                        for link in all_links:
+                            href = link.get_attribute("href") or ""
+                            if ('/exhibitor/' in href and 
+                                href not in self.processed_urls):
+                                company_links.append(href)
+                                self.processed_urls.add(href)
+                    
+                    current_company_count = len(self.processed_urls)
+                    logger.info(f"Scroll {scroll_attempts+1}: {current_company_count} toplam firma bulundu, {len(company_links)} yeni firma")
+                    
+                    # Yeni firmaları işle
+                    for company_url in company_links:
+                        if processed_count >= max_companies:
+                            break
+                            
+                        try:
+                            logger.info(f"İşleniyor ({processed_count+1}/{max_companies}): {company_url}")
+                              # Yeni tab'da aç (ana sayfayı kaybetmemek için)
+                            driver.execute_script("window.open('');")
+                            driver.switch_to.window(driver.window_handles[1])
+                            driver.get(company_url)
+                            time.sleep(random.uniform(1, 2))  # Hızlandırıldı
+                            
+                            company_data = self.extract_company_details(driver)
+                            
+                            if company_data and company_data['Firma Adı']:
+                                self.companies.append(company_data)
+                                processed_count += 1
+                                
+                                logger.info(f"✅ Başarılı: {company_data['Firma Adı']}")
+                                logger.info(f"   Ülke: {company_data['Ülke']}")
+                                logger.info(f"   Web: {company_data['Website']}")
+                            else:
+                                logger.warning(f"❌ Veri çıkarılamadı: {company_url}")
+                            
+                            # Tab'ı kapat ve ana sayfaya dön
+                            driver.close()
+                            driver.switch_to.window(driver.window_handles[0])
+                            time.sleep(1)
+                            
+                        except Exception as e:
+                            logger.error(f"Firma işleme hatası {company_url}: {str(e)}")
+                            # Tab cleanup
+                            try:
+                                if len(driver.window_handles) > 1:
+                                    driver.close()
+                                    driver.switch_to.window(driver.window_handles[0])
+                            except:
+                                pass
+                            continue
+                      # Yeni firma gelmediyse scroll yap
+                    if current_company_count == last_company_count:
+                        no_new_companies_count += 1
+                        logger.info(f"Yeni firma bulunamadı ({no_new_companies_count}/3), scroll yapılıyor...")
+                        # Sayfanın sonuna scroll yap
+                        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                        time.sleep(2)  # Hızlandırıldı
+                        
+                        # JavaScript ile daha fazla içerik yüklenene kadar bekle
+                        self.wait_for_page_load(driver)
+                        
+                        # "Load More" butonu varsa tıkla
+                        try:
+                            load_more_selectors = [
+                                'button[class*="load"]',
+                                'button[class*="more"]',
+                                'a[class*="load"]',
+                                '.load-more',
+                                '.show-more',
+                                '[class*="load-more"]',
+                                '[class*="show-more"]'
+                            ]
+                            
+                            for selector in load_more_selectors:
+                                try:
+                                    load_button = driver.find_element(By.CSS_SELECTOR, selector)
+                                    if load_button.is_displayed() and load_button.is_enabled():
+                                        driver.execute_script("arguments[0].click();", load_button)
+                                        logger.info("Load More butonuna tıklandı")
+                                        time.sleep(3)
+                                        break
+                                except:
+                                    continue
+                        except:
+                            pass
+                        
+                        # 3 scroll'da yeni firma gelmiyorsa dur
+                        if no_new_companies_count >= 3:
+                            logger.info("3 scroll'da yeni firma gelmedi, işlem sonlandırılıyor")
+                            break
+                    else:
+                        no_new_companies_count = 0  # Reset counter
+                    
+                    last_company_count = current_company_count
+                    scroll_attempts += 1
                     
                 except Exception as e:
-                    logger.error(f"Ana döngü hatası: {str(e)}")
-                    attempts += 1
-                    time.sleep(3)
+                    logger.error(f"Scroll işleme hatası: {str(e)}")
+                    scroll_attempts += 1
+                    continue
             
             return processed_count
             
         except Exception as e:
-            logger.error(f"Ana işlem hatası: {str(e)}")
+            logger.error(f"Infinite scroll hatası: {str(e)}")
             return 0
 
     def save_to_excel(self, filename=None):
         """Şirket verilerini Excel'e kaydet"""
         if not filename:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"hometex_click_firmalar_{timestamp}.xlsx"
+            filename = f"texworld_nyc_firmalar_{timestamp}.xlsx"
         
         try:
             df = pd.DataFrame(self.companies)
             
             with pd.ExcelWriter(filename, engine='openpyxl') as writer:
-                df.to_excel(writer, sheet_name='Hometex Firmaları', index=False)
+                df.to_excel(writer, sheet_name='Texworld NYC Firmaları', index=False)
                 
-                worksheet = writer.sheets['Hometex Firmaları']
+                worksheet = writer.sheets['Texworld NYC Firmaları']
                 for column_cells in worksheet.columns:
                     length = max(len(str(cell.value)) for cell in column_cells if cell.value)
                     worksheet.column_dimensions[column_cells[0].column_letter].width = min(length + 2, 50)
@@ -308,21 +363,22 @@ class HometexClickScraper:
             logger.error(f"Excel kaydetme hatası: {str(e)}")
             return None
 
-    def run(self, max_companies=10):
-        """Ana çalıştırma fonksiyonu"""
-        logger.info(f"Hometex Tıklama Scraper başlatılıyor (max {max_companies} şirket)...")
+    def run(self, max_companies=700):
+        """Ana çalıştırma fonksiyonu - Infinite Scroll versiyonu"""
+        logger.info(f"Texworld NYC Infinite Scroll Scraper başlatılıyor (max {max_companies} şirket)...")
         
         driver = None
         try:
             driver = self.setup_selenium_driver()
             
-            processed_count = self.find_and_click_companies(driver, max_companies)
+            # Infinite scroll ile firmalar çek
+            processed_count = self.scrape_with_infinite_scroll(driver, max_companies)
             
             if processed_count > 0:
                 filename = self.save_to_excel()
                 
                 print("\n" + "="*80)
-                print("HOMETEX TIKLAMA SCRAPER RAPORU")
+                print("TEXWORLD NYC INFINITE SCROLL SCRAPER RAPORU")
                 print("="*80)
                 print(f"🎯 İşlenen şirket sayısı: {processed_count}")
                 print(f"📁 Excel dosyası: {filename}")
@@ -330,10 +386,8 @@ class HometexClickScraper:
                 
                 for i, company in enumerate(self.companies, 1):
                     print(f"{i:2d}. {company['Firma Adı']}")
-                    if company['Telefon']:
-                        print(f"    📞 {company['Telefon']}")
-                    if company['E-posta']:
-                        print(f"    📧 {company['E-posta']}")
+                    if company['Ülke']:
+                        print(f"    🌍 {company['Ülke']}")
                     if company['Website']:
                         print(f"    🌐 {company['Website']}")
                 
@@ -363,5 +417,5 @@ class HometexClickScraper:
                     pass
 
 if __name__ == "__main__":
-    scraper = HometexClickScraper()
-    companies = scraper.run(max_companies=1000)  # Tüm şirketleri çek (1000'e kadar)
+    scraper = TexworldScraper()
+    companies = scraper.run(max_companies=1000)  # Extended production run
